@@ -1,0 +1,182 @@
+[
+  {
+    "id": "northwind-labs-founding-product-designer-1",
+    "time": "2026-09-01 10:00 MYT",
+    "company": "Northwind Labs",
+    "role": "Founding Product Designer",
+    "url": "https://example.com/careers/northwind/founding-product-designer",
+    "status": "SUBMITTED",
+    "confirmation": "Verification code sent to alex.nguyen@example.com (fictional).",
+    "confirmationImage": null
+  },
+  {
+    "id": "cedar-pine-growth-lead-2",
+    "time": "2026-09-03 10:00 MYT",
+    "company": "Cedar & Pine Analytics",
+    "role": "Growth Lead *(email: sam.lee@example.com)*",
+    "url": "https://example.com/careers/cedar-pine/growth-lead",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "harborline-forward-deployed-engineer-3",
+    "time": "2026-09-05 10:00 MYT",
+    "company": "Harborline Robotics",
+    "role": "Forward-Deployed Engineer",
+    "url": "https://example.com/careers/harborline/forward-deployed-engineer",
+    "status": "SUBMITTED",
+    "confirmation": "Call +1-555-0100 or https://www.linkedin.com/in/example-applicant \u2014 fictional contacts only.",
+    "confirmationImage": null
+  },
+  {
+    "id": "paper-lantern-community-editor-4",
+    "time": "2026-09-07 10:00 MYT",
+    "company": "Paper Lantern Studio",
+    "role": "Community Editor",
+    "url": "https://example.com/careers/paper-lantern/community-editor",
+    "status": "SKIPPED",
+    "confirmation": "",
+    "confirmationImage": null
+  },
+  {
+    "id": "maplecroft-account-executive-5",
+    "time": "2026-09-09 10:00 MYT",
+    "company": "Maplecroft Health",
+    "role": "Account Executive",
+    "url": "https://example.com/careers/maplecroft/account-executive",
+    "status": "BLOCKED",
+    "confirmation": "",
+    "confirmationImage": null
+  },
+  {
+    "id": "blue-orchard-research-associate-6",
+    "time": "2026-09-11 10:00 MYT",
+    "company": "Blue Orchard Finance",
+    "role": "Research Associate",
+    "url": "https://example.com/careers/blue-orchard/research-associate",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "quarry-co-founding-product-designer-7",
+    "time": "2026-09-13 10:00 MYT",
+    "company": "Quarry & Co",
+    "role": "Founding Product Designer",
+    "url": "https://example.com/careers/quarry/founding-product-designer",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "nightingale-growth-lead-8",
+    "time": "2026-09-15 10:00 MYT",
+    "company": "Nightingale Weather",
+    "role": "Growth Lead",
+    "url": "https://example.com/careers/nightingale/growth-lead",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "northwind-labs-forward-deployed-engineer-9",
+    "time": "2026-09-17 10:00 MYT",
+    "company": "Northwind Labs",
+    "role": "Forward-Deployed Engineer",
+    "url": "https://example.com/careers/northwind/forward-deployed-engineer",
+    "status": "SKIPPED",
+    "confirmation": "",
+    "confirmationImage": null
+  },
+  {
+    "id": "cedar-pine-community-editor-10",
+    "time": "2026-09-19 10:00 MYT",
+    "company": "Cedar & Pine Analytics",
+    "role": "Community Editor",
+    "url": "https://example.com/careers/cedar-pine/community-editor",
+    "status": "BLOCKED",
+    "confirmation": "",
+    "confirmationImage": null
+  },
+  {
+    "id": "harborline-account-executive-11",
+    "time": "2026-09-21 10:00 MYT",
+    "company": "Harborline Robotics",
+    "role": "Account Executive",
+    "url": "https://example.com/careers/harborline/account-executive",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "paper-lantern-research-associate-12",
+    "time": "2026-09-23 10:00 MYT",
+    "company": "Paper Lantern Studio",
+    "role": "Research Associate",
+    "url": "https://example.com/careers/paper-lantern/research-associate",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "maplecroft-founding-product-designer-13",
+    "time": "2026-09-25 10:00 MYT",
+    "company": "Maplecroft Health",
+    "role": "Founding Product Designer",
+    "url": "https://example.com/careers/maplecroft/founding-product-designer",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "blue-orchard-growth-lead-14",
+    "time": "2026-09-27 10:00 MYT",
+    "company": "Blue Orchard Finance",
+    "role": "Growth Lead",
+    "url": "https://example.com/careers/blue-orchard/growth-lead",
+    "status": "SKIPPED",
+    "confirmation": "",
+    "confirmationImage": null
+  },
+  {
+    "id": "quarry-co-forward-deployed-engineer-15",
+    "time": "2026-09-02 10:00 MYT",
+    "company": "Quarry & Co",
+    "role": "Forward-Deployed Engineer",
+    "url": "https://example.com/careers/quarry/forward-deployed-engineer",
+    "status": "BLOCKED",
+    "confirmation": "",
+    "confirmationImage": null
+  },
+  {
+    "id": "nightingale-community-editor-16",
+    "time": "2026-09-04 10:00 MYT",
+    "company": "Nightingale Weather",
+    "role": "Community Editor",
+    "url": "https://example.com/careers/nightingale/community-editor",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "northwind-labs-account-executive-17",
+    "time": "2026-09-06 10:00 MYT",
+    "company": "Northwind Labs",
+    "role": "Account Executive",
+    "url": "https://example.com/careers/northwind/account-executive",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  },
+  {
+    "id": "cedar-pine-research-associate-18",
+    "time": "2026-09-08 10:00 MYT",
+    "company": "Cedar & Pine Analytics",
+    "role": "Research Associate",
+    "url": "https://example.com/careers/cedar-pine/research-associate",
+    "status": "SUBMITTED",
+    "confirmation": "Thanks for applying. This is a fictional confirmation for the public demo.",
+    "confirmationImage": null
+  }
+]

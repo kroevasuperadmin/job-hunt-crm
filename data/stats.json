@@ -1,0 +1,10 @@
+{
+  "total": 18,
+  "by_status": {
+    "SUBMITTED": 12,
+    "SKIPPED": 3,
+    "BLOCKED": 3
+  },
+  "companies": 8,
+  "updated_at": "2026-11-17T08:00:00+08:00"
+}
