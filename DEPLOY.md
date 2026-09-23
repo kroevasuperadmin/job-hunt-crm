@@ -48,3 +48,10 @@ npm run start
 
 - First deploy created project `job-hunt-crm` under the kroevasuperadmin personal projects scope.
 - CLI deploy does not require GitHub.
+
+## GitHub (source of truth)
+
+**https://github.com/kroevasuperadmin/job-hunt-crm** (private)
+
+Push updates here so version history stays clear. Vercel remains the live site at https://job-hunt-crm-one.vercel.app — you can later connect this GitHub repo in the Vercel project settings so pushes auto-deploy.
+
