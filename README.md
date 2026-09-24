@@ -8,7 +8,7 @@ Demo dashboard of fictional job applications. The page keeps the same layout as 
 
 `POST` or `PUT /api/crm` upserts one application or a batch by `id`, then recomputes stats. Requests must send `CRM_INGEST_SECRET` in the `x-crm-ingest-secret` header (or `Authorization: Bearer <secret>`). GitHub is not involved.
 
-If the store is empty on first load, it is seeded from `data/applications.json`. Later edits to that file do not change the live site; send them through the ingest API. `data/stats.json` is not read at runtime — totals always come from the stored applications.
+If the store is empty on first load, it is seeded from `data/applications.json` (the bundled synthetic snapshot). Later edits to that file do not change the live site; send them through the ingest API. `data/stats.json` records the same snapshot totals and is not read at runtime — totals always come from the stored applications.
 
 This demo does not include confirmation screenshots. A row still renders when `confirmationImage` is `null`, a filename, or a path.
 

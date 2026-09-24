@@ -104,11 +104,9 @@ curl -sS "https://job-hunt-crm-one.vercel.app/api/crm"
 
 ## Seed
 
-On first read, if the Blob object `crm/applications.json` does not exist yet, the API writes a copy of `data/applications.json` and serves that. This checkout’s file has **158** applications. The site already deployed at the production URL was built from a different snapshot and currently shows **250** rows. That snapshot is not a superset of this file: some ids exist only in the deployment, and some ids in git are missing or different there.
+On first read, if the Blob object `crm/applications.json` does not exist yet, the API writes a copy of `data/applications.json` and serves that. That file is the production snapshot: **250** applications, **174** submitted, **36** skipped, **40** blocked. `data/stats.json` records the same totals (`total` / `by_status`). Runtime stats are recomputed from the applications, so the dashboard shows those counts from the rows themselves.
 
-The empty-store seed is whatever `data/applications.json` is in the deployment that handles the first request. Put the snapshot you want to keep into that file and deploy it before the Blob object is created. Once the object exists, the live store wins: editing the JSON file and redeploying will not replace it. Send further changes with `POST`.
-
-Deleting the blob object makes the next load seed again from whatever `data/applications.json` is in that deployment.
+Once the Blob object exists, the live store wins: editing the JSON files and redeploying will not replace it. Send further changes with `POST`. Deleting the blob object makes the next load seed again from `data/applications.json` in that deployment.
 
 ## Redeploy (code and screenshots only)
 
