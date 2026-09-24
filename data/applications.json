@@ -37,7 +37,7 @@
     "url": "https://www.ycombinator.com/companies/agave/jobs/uXThVB4-marketing-lead",
     "status": "SUBMITTED",
     "confirmation": "YC apply; see agave_application_confirmation.png",
-    "confirmationImage": "agave_application_confirmation.png"
+    "confirmationImage": "/confirmations/agave_application_confirmation.png"
   },
   {
     "id": "wordware-founding-growth-marketer",
@@ -47,7 +47,7 @@
     "url": "https://www.ycombinator.com/companies/wordware/jobs/E2cby3G-founding-growth-marketer",
     "status": "SUBMITTED",
     "confirmation": "YC apply; O-1/J-1 role; wordware_confirmation.png",
-    "confirmationImage": "wordware_confirmation.png"
+    "confirmationImage": "/confirmations/wordware_confirmation.png"
   },
   {
     "id": "legion-health-head-of-consumer-growth",
@@ -57,17 +57,17 @@
     "url": "https://www.ycombinator.com/companies/legion-health/jobs/17pc6eF-head-of-consumer-growth-backed-by-y-combinator-5m-arr-23m-raised",
     "status": "SUBMITTED",
     "confirmation": "CEO Yash MUST-complete link; legion_hocg_yc_confirmation.png",
-    "confirmationImage": "legion_hocg_yc_confirmation.png"
+    "confirmationImage": "/confirmations/legion_hocg_yc_confirmation.png"
   },
   {
-    "id": "hud-marketing-and-events-lead",
+    "id": "hud-marketing-events-lead",
     "time": "2026-09-24 00:31 MYT",
     "company": "HUD",
     "role": "Marketing & Events Lead",
     "url": "https://www.ycombinator.com/companies/hud/jobs/B59vJPJ-marketing-events-lead",
     "status": "SUBMITTED",
     "confirmation": "YC; hud_events_yc_confirmation.png",
-    "confirmationImage": "hud_events_yc_confirmation.png"
+    "confirmationImage": "/confirmations/hud_events_yc_confirmation.png"
   },
   {
     "id": "finta-community-events-lead",
@@ -77,7 +77,7 @@
     "url": "https://www.ycombinator.com/companies/finta/jobs/q0zw6lg-community-events-lead",
     "status": "SUBMITTED",
     "confirmation": "YC; finta_confirmation.png",
-    "confirmationImage": "finta_confirmation.png"
+    "confirmationImage": "/confirmations/finta_confirmation.png"
   },
   {
     "id": "legion-health-consumer-ai-lifecycle-product-and-marketing-lead",
@@ -97,7 +97,7 @@
     "url": "https://jobs.ashbyhq.com/primeintellect/4c6ccfd6-6512-4905-979a-6dcc6d64a935",
     "status": "SUBMITTED",
     "confirmation": "Ashby; prime_intellect_confirmation.png",
-    "confirmationImage": "prime_intellect_confirmation.png"
+    "confirmationImage": "/confirmations/prime_intellect_confirmation.png"
   },
   {
     "id": "hud-growth-lead",
@@ -107,7 +107,7 @@
     "url": "https://jobs.ashbyhq.com/hud/ded4c04f-36a7-494f-b5a0-d4e8ffcb3e04",
     "status": "SUBMITTED",
     "confirmation": "Ashby; hud_growth_confirmation.png",
-    "confirmationImage": "hud_growth_confirmation.png"
+    "confirmationImage": "/confirmations/hud_growth_confirmation.png"
   },
   {
     "id": "shor-founding-growth-gtm-lead",
@@ -127,7 +127,7 @@
     "url": "https://jobs.ashbyhq.com/sauna.ai/7c520466-6ed2-4e24-badf-47d1a2d79ca0",
     "status": "SUBMITTED",
     "confirmation": "Ashby success; sauna_founding_growth_confirmation.png",
-    "confirmationImage": "sauna_founding_growth_confirmation.png"
+    "confirmationImage": "/confirmations/sauna_founding_growth_confirmation.png"
   },
   {
     "id": "sauna-ai-head-of-growth",
@@ -137,7 +137,7 @@
     "url": "https://jobs.ashbyhq.com/sauna.ai/56f92234-3ad1-4eaf-8f95-c53fa15af0a0",
     "status": "SUBMITTED",
     "confirmation": "Ashby success; sauna_hog_confirmation.png",
-    "confirmationImage": "sauna_hog_confirmation.png"
+    "confirmationImage": "/confirmations/sauna_hog_confirmation.png"
   },
   {
     "id": "exa-digital-marketing-manager",
@@ -147,7 +147,7 @@
     "url": "https://jobs.ashbyhq.com/exa/54f689ac-ab9a-4e41-8e84-556526582b54",
     "status": "SUBMITTED",
     "confirmation": "Ashby; exa_dmm_confirmation.png",
-    "confirmationImage": "exa_dmm_confirmation.png"
+    "confirmationImage": "/confirmations/exa_dmm_confirmation.png"
   },
   {
     "id": "exa-customer-and-partner-marketing",
@@ -157,7 +157,7 @@
     "url": "https://jobs.ashbyhq.com/exa/c935b18d-a35a-46cd-b0fc-a64d65486518",
     "status": "SUBMITTED",
     "confirmation": "Ashby; exa_cpm_confirmation.png",
-    "confirmationImage": "exa_cpm_confirmation.png"
+    "confirmationImage": "/confirmations/exa_cpm_confirmation.png"
   },
   {
     "id": "exa-product-marketing-enablement",
@@ -167,7 +167,7 @@
     "url": "https://jobs.ashbyhq.com/exa/d26419da-d1a3-4ece-8b10-22e8d5526744",
     "status": "SUBMITTED",
     "confirmation": "Ashby; exa_pme_confirmation.png",
-    "confirmationImage": "exa_pme_confirmation.png"
+    "confirmationImage": "/confirmations/exa_pme_confirmation.png"
   },
   {
     "id": "exa-technical-product-marketing-content",
@@ -187,7 +187,7 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5406113008",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse received; anthropic_pml_confirmation.png",
-    "confirmationImage": "anthropic_pml_confirmation.png"
+    "confirmationImage": "/confirmations/anthropic_pml_confirmation.png"
   },
   {
     "id": "anthropic-enterprise-integrated-campaign-manager",
@@ -200,7 +200,7 @@
     "confirmationImage": null
   },
   {
-    "id": "anthropic-customer-programs-manager-co-marketing-and-measurement",
+    "id": "anthropic-customer-programs-manager-co-marketing-measurement",
     "time": "2026-09-24 01:05 MYT",
     "company": "Anthropic",
     "role": "Customer Programs Manager, Co-Marketing & Measurement",
@@ -257,7 +257,7 @@
     "url": "https://jobs.ashbyhq.com/sainapse/a2359ef0-9eff-4cfa-baf5-acaa8c524980",
     "status": "SUBMITTED",
     "confirmation": "Ashby; sainapse_gtm_confirmation.png",
-    "confirmationImage": "sainapse_gtm_confirmation.png"
+    "confirmationImage": "/confirmations/sainapse_gtm_confirmation.png"
   },
   {
     "id": "applied-compute-product-marketing",
@@ -267,7 +267,7 @@
     "url": "https://jobs.ashbyhq.com/applied%20compute/77b2ad96-aac4-4134-8503-292252a6edc9",
     "status": "SUBMITTED",
     "confirmation": "Ashby; applied_compute_pm_confirmation.png",
-    "confirmationImage": "applied_compute_pm_confirmation.png"
+    "confirmationImage": "/confirmations/applied_compute_pm_confirmation.png"
   },
   {
     "id": "krea-creative-lead",
@@ -277,7 +277,7 @@
     "url": "https://jobs.ashbyhq.com/krea/1eb60922-3223-45ec-be02-8e43dd9e8764",
     "status": "SUBMITTED",
     "confirmation": "Ashby O-1-friendly; krea_creative_confirmation.png",
-    "confirmationImage": "krea_creative_confirmation.png"
+    "confirmationImage": "/confirmations/krea_creative_confirmation.png"
   },
   {
     "id": "krea-founding-customer-success-manager",
@@ -287,7 +287,7 @@
     "url": "https://jobs.ashbyhq.com/krea/10750b5e-637e-4901-922e-38fb25992e05",
     "status": "SUBMITTED",
     "confirmation": "Ashby O-1-friendly; krea_csm_confirmation.png",
-    "confirmationImage": "krea_csm_confirmation.png"
+    "confirmationImage": "/confirmations/krea_csm_confirmation.png"
   },
   {
     "id": "openart-ai-creator-community-lead",
@@ -297,17 +297,17 @@
     "url": "https://jobs.ashbyhq.com/openart/30ba6895-b76b-4bb8-ab2c-954f0a387287",
     "status": "SUBMITTED",
     "confirmation": "Ashby; openart_community_confirmation.png",
-    "confirmationImage": "openart_community_confirmation.png"
+    "confirmationImage": "/confirmations/openart_community_confirmation.png"
   },
   {
-    "id": "openart-ai-creative-director-video-and-ai-content",
+    "id": "openart-ai-creative-director-video-ai-content",
     "time": "2026-09-24 01:18 MYT",
     "company": "OpenArt AI",
     "role": "Creative Director — Video & AI Content",
     "url": "https://jobs.ashbyhq.com/openart/abc8b775-4719-4474-ab46-7520a544b15a",
     "status": "SUBMITTED",
     "confirmation": "Ashby; openart_cd_confirmation.png",
-    "confirmationImage": "openart_cd_confirmation.png"
+    "confirmationImage": "/confirmations/openart_cd_confirmation.png"
   },
   {
     "id": "retell-ai-founding-product-marketer",
@@ -410,7 +410,7 @@
     "confirmationImage": null
   },
   {
-    "id": "openai-product-marketing-lead-api-models-and-research",
+    "id": "openai-product-marketing-lead-api-models-research",
     "time": "2026-09-24 04:26 MYT",
     "company": "OpenAI",
     "role": "Product Marketing Lead, API Models & Research",
@@ -430,7 +430,7 @@
     "confirmationImage": null
   },
   {
-    "id": "workstream-head-of-brand-and-product-marketing",
+    "id": "workstream-head-of-brand-product-marketing",
     "time": "2026-09-24 04:26 MYT",
     "company": "Workstream",
     "role": "Head of Brand & Product Marketing",
@@ -500,7 +500,7 @@
     "confirmationImage": null
   },
   {
-    "id": "sygaldry-technologies-business-development-and-partnerships",
+    "id": "sygaldry-technologies-business-development-partnerships",
     "time": "2026-09-24 04:26 MYT",
     "company": "Sygaldry Technologies",
     "role": "Business Development & Partnerships",
@@ -520,7 +520,7 @@
     "confirmationImage": null
   },
   {
-    "id": "quander-founding-gtm-and-ops",
+    "id": "quander-founding-gtm-ops",
     "time": "2026-09-24 04:47 MYT",
     "company": "Quander",
     "role": "Founding GTM & Ops",
@@ -547,7 +547,7 @@
     "url": "https://www.ycombinator.com/companies/traceroot-ai/jobs/9JpJdnw-founding-gtm-engineer",
     "status": "SUBMITTED",
     "confirmation": "YC; traceroot_gtm_confirmation.png",
-    "confirmationImage": "traceroot_gtm_confirmation.png"
+    "confirmationImage": "/confirmations/traceroot_gtm_confirmation.png"
   },
   {
     "id": "cursor-head-of-americas-field-marketing",
@@ -570,7 +570,7 @@
     "confirmationImage": null
   },
   {
-    "id": "cursor-marketing-manager-startup-events-and-programs",
+    "id": "cursor-marketing-manager-startup-events-programs",
     "time": "2026-09-24 04:47 MYT",
     "company": "Cursor",
     "role": "Marketing Manager, Startup Events & Programs",
@@ -597,7 +597,7 @@
     "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238633007",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; together_tcm_confirmation.png",
-    "confirmationImage": "together_tcm_confirmation.png"
+    "confirmationImage": "/confirmations/together_tcm_confirmation.png"
   },
   {
     "id": "postman-technical-community-manager",
@@ -617,7 +617,7 @@
     "url": "https://www.brex.com/careers/8402259002",
     "status": "SUBMITTED",
     "confirmation": "brex_pml_confirmation.png",
-    "confirmationImage": "brex_pml_confirmation.png"
+    "confirmationImage": "/confirmations/brex_pml_confirmation.png"
   },
   {
     "id": "scale-ai-product-marketing-lead-enterprise",
@@ -627,7 +627,7 @@
     "url": "https://scale.com/careers/4722998005",
     "status": "SUBMITTED",
     "confirmation": "scale_pml_enterprise_confirmation.png",
-    "confirmationImage": "scale_pml_enterprise_confirmation.png"
+    "confirmationImage": "/confirmations/scale_pml_enterprise_confirmation.png"
   },
   {
     "id": "stripe-product-marketing-manager-startup-segment",
@@ -637,7 +637,7 @@
     "url": "https://stripe.com/careers/listing/product-marketing-manager-startup-segment/8097731",
     "status": "SUBMITTED",
     "confirmation": "stripe_pmm_startup_confirmation.png",
-    "confirmationImage": "stripe_pmm_startup_confirmation.png"
+    "confirmationImage": "/confirmations/stripe_pmm_startup_confirmation.png"
   },
   {
     "id": "stripe-product-marketing-manager-global-selling",
@@ -667,7 +667,7 @@
     "url": "https://jobs.ashbyhq.com/rundoo/7bb06eee-2f75-42cf-8514-2254d7573b82",
     "status": "SUBMITTED",
     "confirmation": "Ashby; rundoo_gmm_confirmation.png",
-    "confirmationImage": "rundoo_gmm_confirmation.png"
+    "confirmationImage": "/confirmations/rundoo_gmm_confirmation.png"
   },
   {
     "id": "rundoo-partner-growth-manager",
@@ -677,7 +677,7 @@
     "url": "https://jobs.ashbyhq.com/rundoo/4e823df1-d23e-402e-8504-c0ce7c7ceab2",
     "status": "SUBMITTED",
     "confirmation": "Ashby; rundoo_pgm_confirmation.png",
-    "confirmationImage": "rundoo_pgm_confirmation.png"
+    "confirmationImage": "/confirmations/rundoo_pgm_confirmation.png"
   },
   {
     "id": "you-com-technical-product-marketing-manager",
@@ -687,7 +687,7 @@
     "url": "https://job-boards.greenhouse.io/youcom/jobs/5251122008",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; youcom_tpmm_confirmation.png",
-    "confirmationImage": "youcom_tpmm_confirmation.png"
+    "confirmationImage": "/confirmations/youcom_tpmm_confirmation.png"
   },
   {
     "id": "mochi-health-senior-lifecycle-marketing-manager",
@@ -697,7 +697,7 @@
     "url": "https://job-boards.greenhouse.io/mochihealth/jobs/5324457008",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; mochi_lifecycle_confirmation.png",
-    "confirmationImage": "mochi_lifecycle_confirmation.png"
+    "confirmationImage": "/confirmations/mochi_lifecycle_confirmation.png"
   },
   {
     "id": "glean-principal-product-marketing-manager-enterprise-context-sf",
@@ -707,7 +707,7 @@
     "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4736358005",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; glean_pmm_sf_confirmation.png",
-    "confirmationImage": "glean_pmm_sf_confirmation.png"
+    "confirmationImage": "/confirmations/glean_pmm_sf_confirmation.png"
   },
   {
     "id": "glean-principal-product-marketing-manager-enterprise-context-mountain-view",
@@ -717,7 +717,7 @@
     "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4736348005",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; glean_pmm_mv_confirmation.png",
-    "confirmationImage": "glean_pmm_mv_confirmation.png"
+    "confirmationImage": "/confirmations/glean_pmm_mv_confirmation.png"
   },
   {
     "id": "fin-salesforce-principal-product-marketing-manager-competitive",
@@ -767,7 +767,7 @@
     "url": "https://job-boards.greenhouse.io/intercom/jobs/8223136",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; fin_pmm_segments_confirmation.png",
-    "confirmationImage": "fin_pmm_segments_confirmation.png"
+    "confirmationImage": "/confirmations/fin_pmm_segments_confirmation.png"
   },
   {
     "id": "athenahq-founding-growth-marketer",
@@ -777,7 +777,7 @@
     "url": "https://www.ycombinator.com/companies/athenahq/jobs/rPMNI5x-founding-growth-marketer",
     "status": "SUBMITTED",
     "confirmation": "YC; athenahq_fgm_confirmation.png",
-    "confirmationImage": "athenahq_fgm_confirmation.png"
+    "confirmationImage": "/confirmations/athenahq_fgm_confirmation.png"
   },
   {
     "id": "aside-gtm",
@@ -797,7 +797,7 @@
     "url": "https://jobs.ashbyhq.com/nooks/f691317f-7b38-4303-9a21-7546c6bd9de9",
     "status": "SUBMITTED",
     "confirmation": "Ashby; nooks_hog_confirmation.png",
-    "confirmationImage": "nooks_hog_confirmation.png"
+    "confirmationImage": "/confirmations/nooks_hog_confirmation.png"
   },
   {
     "id": "primer-head-of-marketing",
@@ -807,7 +807,7 @@
     "url": "https://jobs.ashbyhq.com/primer/32457d44-7d65-4701-8266-bfe90abc438e",
     "status": "SUBMITTED",
     "confirmation": "Ashby; primer_hom_confirmation.png",
-    "confirmationImage": "primer_hom_confirmation.png"
+    "confirmationImage": "/confirmations/primer_hom_confirmation.png"
   },
   {
     "id": "finix-gtm-engineer",
@@ -827,7 +827,7 @@
     "url": "https://jobs.ashbyhq.com/anrok/a9c63208-9084-4eae-9423-4b83dd245944",
     "status": "SUBMITTED",
     "confirmation": "Ashby; anrok_pml_confirmation.png",
-    "confirmationImage": "anrok_pml_confirmation.png"
+    "confirmationImage": "/confirmations/anrok_pml_confirmation.png"
   },
   {
     "id": "hinge-health-senior-product-marketing-manager",
@@ -887,7 +887,7 @@
     "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7784474003",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; sigma_spmm_confirmation.png",
-    "confirmationImage": "sigma_spmm_confirmation.png"
+    "confirmationImage": "/confirmations/sigma_spmm_confirmation.png"
   },
   {
     "id": "center-for-ai-safety-cais-senior-manager-product-marketing",
@@ -897,10 +897,10 @@
     "url": "https://job-boards.greenhouse.io/centerforartificialintelligencesafetyinc/jobs/4377933009",
     "status": "SUBMITTED",
     "confirmation": "Greenhouse; cais_pmm_confirmation.png",
-    "confirmationImage": "cais_pmm_confirmation.png"
+    "confirmationImage": "/confirmations/cais_pmm_confirmation.png"
   },
   {
-    "id": "twitch-product-marketing-manager-trust-and-safety-community",
+    "id": "twitch-product-marketing-manager-trust-safety-community",
     "time": "2026-09-24 05:26 MYT",
     "company": "Twitch",
     "role": "Product Marketing Manager: Trust & Safety, Community",
@@ -927,7 +927,7 @@
     "url": "https://jobs.ashbyhq.com/quanta/3303c973-db5e-4c23-850d-c03d073687d4",
     "status": "SUBMITTED",
     "confirmation": "PRE-FILTER; sponsorship language unverified; quanta_fm_confirmation.png",
-    "confirmationImage": "quanta_fm_confirmation.png"
+    "confirmationImage": "/confirmations/quanta_fm_confirmation.png"
   },
   {
     "id": "cooper-ai-founding-marketer",
@@ -947,7 +947,7 @@
     "url": "https://jobs.ashbyhq.com/cleric/d15cbc60-8642-424a-ad16-306d88420531",
     "status": "SUBMITTED",
     "confirmation": "PRE-FILTER; sponsorship language unverified; cleric_fm_confirmation.png",
-    "confirmationImage": "cleric_fm_confirmation.png"
+    "confirmationImage": "/confirmations/cleric_fm_confirmation.png"
   },
   {
     "id": "typesafe-ai-founding-marketer",
@@ -957,7 +957,7 @@
     "url": "https://jobs.ashbyhq.com/typesafe-ai/941ab475-393c-4943-a115-903b9d4dec68",
     "status": "SUBMITTED",
     "confirmation": "Listing reported visa sponsorship available; typesafe_fm_confirmation.png",
-    "confirmationImage": "typesafe_fm_confirmation.png"
+    "confirmationImage": "/confirmations/typesafe_fm_confirmation.png"
   },
   {
     "id": "mintmcp-founding-marketer",
@@ -977,7 +977,7 @@
     "url": "https://jobs.ashbyhq.com/arceus/64866b71-d3f4-46a2-8176-82a5322df009",
     "status": "SUBMITTED",
     "confirmation": "PRE-FILTER; sponsorship language unverified; arceus_fg_confirmation.png",
-    "confirmationImage": "arceus_fg_confirmation.png"
+    "confirmationImage": "/confirmations/arceus_fg_confirmation.png"
   },
   {
     "id": "hedra-product-marketing-manager",
@@ -987,7 +987,7 @@
     "url": "https://jobs.ashbyhq.com/hedra/8cd2294b-dee4-44ea-ad54-427cd35b4415",
     "status": "SUBMITTED",
     "confirmation": "PRE-FILTER; sponsorship language unverified; hedra_pmm_confirmation.png",
-    "confirmationImage": "hedra_pmm_confirmation.png"
+    "confirmationImage": "/confirmations/hedra_pmm_confirmation.png"
   },
   {
     "id": "happyrobot-product-marketing-manager",
@@ -997,7 +997,7 @@
     "url": "https://jobs.ashbyhq.com/happyrobot.ai/02bccbe0-6ded-435e-ad30-84121b359fc5",
     "status": "SUBMITTED",
     "confirmation": "PRE-FILTER; sponsorship language unverified; happyrobot_pmm_confirmation.png",
-    "confirmationImage": "happyrobot_pmm_confirmation.png"
+    "confirmationImage": "/confirmations/happyrobot_pmm_confirmation.png"
   },
   {
     "id": "plaud-senior-product-marketing-manager-americas",
@@ -1007,7 +1007,7 @@
     "url": "https://jobs.ashbyhq.com/plaud/e7b129c7-01c8-4ca6-b352-ba0b95aa2064",
     "status": "SUBMITTED",
     "confirmation": "PRE-FILTER; sponsorship language unverified; plaud_spmm_confirmation.png",
-    "confirmationImage": "plaud_spmm_confirmation.png"
+    "confirmationImage": "/confirmations/plaud_spmm_confirmation.png"
   },
   {
     "id": "gaia-health-product-marketing-lead",
@@ -1077,7 +1077,7 @@
     "url": "https://jobs.ashbyhq.com/retell-ai/184a619b-fa33-45f5-9fbf-d3e6dfb5121e",
     "status": "SUBMITTED",
     "confirmation": "Explicit sponsor language verified; retell_seo_confirmation.png",
-    "confirmationImage": "retell_seo_confirmation.png"
+    "confirmationImage": "/confirmations/retell_seo_confirmation.png"
   },
   {
     "id": "clara-founding-full-stack-growth-engineer",
@@ -1100,7 +1100,7 @@
     "confirmationImage": null
   },
   {
-    "id": "juicebox-sales-strategy-and-operations-lead",
+    "id": "juicebox-sales-strategy-operations-lead",
     "time": "2026-09-24 05:50 MYT",
     "company": "Juicebox",
     "role": "Sales Strategy & Operations Lead",
@@ -1120,7 +1120,7 @@
     "confirmationImage": null
   },
   {
-    "id": "hirify-ai-hr-payroll-head-of-brand-and-product-marketing",
+    "id": "hirify-ai-hr-payroll-head-of-brand-product-marketing",
     "time": "2026-09-24 05:50 MYT",
     "company": "hirify (AI HR/payroll)",
     "role": "Head of Brand & Product Marketing",
@@ -1170,7 +1170,7 @@
     "confirmationImage": null
   },
   {
-    "id": "quander-founding-gtm-and-ops-2",
+    "id": "quander-founding-gtm-ops-2",
     "time": "2026-09-24 05:50 MYT",
     "company": "Quander",
     "role": "Founding GTM & Ops",
@@ -1180,7 +1180,7 @@
     "confirmationImage": null
   },
   {
-    "id": "quander-founding-gtm-and-ops-3",
+    "id": "quander-founding-gtm-ops-3",
     "time": "2026-09-24 05:51 MYT",
     "company": "Quander",
     "role": "Founding GTM & Ops",
@@ -1290,14 +1290,14 @@
     "confirmationImage": null
   },
   {
-    "id": "reflection-ai-technical-community-and-programs-lead",
+    "id": "reflection-ai-technical-community-programs-lead",
     "time": "2026-09-24 06:20 MYT",
     "company": "Reflection AI",
     "role": "Technical Community & Programs Lead",
     "url": "https://jobs.ashbyhq.com/reflectionai/578cd3af-5805-44f6-b081-e3c1c7109261",
     "status": "SUBMITTED",
     "confirmation": "Explicit sponsor language; reflection_tcpl_confirmation.png",
-    "confirmationImage": "reflection_tcpl_confirmation.png"
+    "confirmationImage": "/confirmations/reflection_tcpl_confirmation.png"
   },
   {
     "id": "reflection-ai-engagement-manager",
@@ -1307,17 +1307,17 @@
     "url": "https://jobs.ashbyhq.com/reflectionai/fa2ef5b7-7676-4ec4-b8a2-684ed7dfaea2",
     "status": "SUBMITTED",
     "confirmation": "Explicit sponsor language; reflection_em_confirmation.png",
-    "confirmationImage": "reflection_em_confirmation.png"
+    "confirmationImage": "/confirmations/reflection_em_confirmation.png"
   },
   {
-    "id": "reflection-ai-strategy-and-ops-generalist",
+    "id": "reflection-ai-strategy-ops-generalist",
     "time": "2026-09-24 06:20 MYT",
     "company": "Reflection AI",
     "role": "Strategy & Ops Generalist",
     "url": "https://jobs.ashbyhq.com/reflectionai/895c4836-b6be-462b-91fc-ddf6295903c9",
     "status": "SUBMITTED",
     "confirmation": "Explicit sponsor language; reflection_sog_confirmation.png",
-    "confirmationImage": "reflection_sog_confirmation.png"
+    "confirmationImage": "/confirmations/reflection_sog_confirmation.png"
   },
   {
     "id": "the-san-francisco-compute-company-go-to-market-lead-ai-infrastructure",
@@ -1327,7 +1327,7 @@
     "url": "https://jobs.ashbyhq.com/sfcompute/4f361ed0-efa2-4b53-849b-51a051478d2c",
     "status": "SUBMITTED",
     "confirmation": "“Yes, we sponsor visas and work permits”; sfcompute_gtm_confirmation.png",
-    "confirmationImage": "sfcompute_gtm_confirmation.png"
+    "confirmationImage": "/confirmations/sfcompute_gtm_confirmation.png"
   },
   {
     "id": "the-san-francisco-compute-company-supercomputing-partnerships-manager",
@@ -1337,7 +1337,7 @@
     "url": "https://jobs.ashbyhq.com/sfcompute/b3402ea1-6fb3-4e29-b778-03b7325bad89",
     "status": "SUBMITTED",
     "confirmation": "Explicit sponsor language; sfcompute_spm_confirmation.png",
-    "confirmationImage": "sfcompute_spm_confirmation.png"
+    "confirmationImage": "/confirmations/sfcompute_spm_confirmation.png"
   },
   {
     "id": "lightwheel-limited-solution-architect-physical-ai-data",
@@ -1347,7 +1347,7 @@
     "url": "https://jobs.ashbyhq.com/lightwheel/97c66f2c-e3f0-495e-9635-f079bd0918ef",
     "status": "SUBMITTED",
     "confirmation": "“Visa sponsorship available”; lightwheel_sa_confirmation.png",
-    "confirmationImage": "lightwheel_sa_confirmation.png"
+    "confirmationImage": "/confirmations/lightwheel_sa_confirmation.png"
   },
   {
     "id": "thinking-machines-lab-data-operations",
@@ -1357,7 +1357,7 @@
     "url": "https://jobs.ashbyhq.com/thinkingmachines/28e2d71f-dabd-4745-9903-9b363979f0aa",
     "status": "SUBMITTED",
     "confirmation": "Live page sponsor offer per queue; tml_dataops_confirmation.png",
-    "confirmationImage": "tml_dataops_confirmation.png"
+    "confirmationImage": "/confirmations/tml_dataops_confirmation.png"
   },
   {
     "id": "artisan-builder",
@@ -1367,7 +1367,7 @@
     "url": "https://jobs.ashbyhq.com/artisan/53a7d285-8969-48fe-9847-4b5a5774e48d",
     "status": "SUBMITTED",
     "confirmation": "“US visa sponsorship available”; SF option; artisan_builder_confirmation.png",
-    "confirmationImage": "artisan_builder_confirmation.png"
+    "confirmationImage": "/confirmations/artisan_builder_confirmation.png"
   },
   {
     "id": "aaru-deployment-lead-west-sf",
@@ -1377,7 +1377,7 @@
     "url": "https://jobs.ashbyhq.com/aaru/8229c9b5-5e64-4e92-b3c0-e7ea52160dd2",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship on page; aaru_deploy_confirmation.png",
-    "confirmationImage": "aaru_deploy_confirmation.png"
+    "confirmationImage": "/confirmations/aaru_deploy_confirmation.png"
   },
   {
     "id": "aaru-simulation-architect-west-sf",
@@ -1387,7 +1387,7 @@
     "url": "https://jobs.ashbyhq.com/aaru/b0d5cf02-fe88-4eaa-8908-3c5556844dbb",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship on page; aaru_sim_confirmation.png",
-    "confirmationImage": "aaru_sim_confirmation.png"
+    "confirmationImage": "/confirmations/aaru_sim_confirmation.png"
   },
   {
     "id": "aaru-account-executive-west-sf",
@@ -1397,7 +1397,7 @@
     "url": "https://jobs.ashbyhq.com/aaru/52a1d1f6-dbf3-4ac1-a4fd-ef561d51134b",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship on page; aaru_ae_confirmation.png",
-    "confirmationImage": "aaru_ae_confirmation.png"
+    "confirmationImage": "/confirmations/aaru_ae_confirmation.png"
   },
   {
     "id": "dualentry-account-executive-sf-hybrid",
@@ -1407,7 +1407,7 @@
     "url": "https://jobs.ashbyhq.com/dualentry/cbc842e9-c466-422e-883c-9ea841a6a2d6",
     "status": "SUBMITTED",
     "confirmation": "Visa & PR sponsorship; dualentry_ae_confirmation.png",
-    "confirmationImage": "dualentry_ae_confirmation.png"
+    "confirmationImage": "/confirmations/dualentry_ae_confirmation.png"
   },
   {
     "id": "dualentry-enterprise-account-executive-sf-hybrid",
@@ -1417,7 +1417,7 @@
     "url": "https://jobs.ashbyhq.com/dualentry/15ed99ed-90a7-4c14-bff4-2a940b5ac0e5",
     "status": "SUBMITTED",
     "confirmation": "Visa and PR sponsorship; dualentry_eae_confirmation.png",
-    "confirmationImage": "dualentry_eae_confirmation.png"
+    "confirmationImage": "/confirmations/dualentry_eae_confirmation.png"
   },
   {
     "id": "dualentry-senior-account-executive-sf-hybrid",
@@ -1430,7 +1430,7 @@
     "confirmationImage": null
   },
   {
-    "id": "jack-and-jill-founding-community-and-events-lead",
+    "id": "jack-jill-founding-community-and-events-lead",
     "time": "2026-09-24 06:45 MYT",
     "company": "Jack & Jill",
     "role": "Founding Community and Events Lead",
@@ -1440,7 +1440,7 @@
     "confirmationImage": null
   },
   {
-    "id": "jack-and-jill-account-executive-sf",
+    "id": "jack-jill-account-executive-sf",
     "time": "2026-09-24 06:45 MYT",
     "company": "Jack & Jill",
     "role": "Account Executive (SF)",
@@ -1450,24 +1450,24 @@
     "confirmationImage": null
   },
   {
-    "id": "jack-and-jill-founding-community-and-events-lead-2",
+    "id": "jack-jill-founding-community-and-events-lead-2",
     "time": "2026-09-24 06:50 MYT",
     "company": "Jack & Jill",
     "role": "Founding Community and Events Lead",
     "url": "https://jobs.ashbyhq.com/jack-jill-external-ats/1888a06c-d3d6-43b8-9f7b-e69294871575",
     "status": "SUBMITTED",
     "confirmation": "Talk to Jack via LinkedIn Google SSO; jackjill_community_confirmation.png",
-    "confirmationImage": "jackjill_community_confirmation.png"
+    "confirmationImage": "/confirmations/jackjill_community_confirmation.png"
   },
   {
-    "id": "jack-and-jill-account-executive-sf-2",
+    "id": "jack-jill-account-executive-sf-2",
     "time": "2026-09-24 06:50 MYT",
     "company": "Jack & Jill",
     "role": "Account Executive (SF)",
     "url": "https://jobs.ashbyhq.com/jack-jill-external-ats/2fd5e1c5-9f09-4d69-89eb-839393beaf68",
     "status": "SUBMITTED",
     "confirmation": "Talk to Jack via LinkedIn Google SSO; jackjill_ae_confirmation.png",
-    "confirmationImage": "jackjill_ae_confirmation.png"
+    "confirmationImage": "/confirmations/jackjill_ae_confirmation.png"
   },
   {
     "id": "artie-senior-business-development-representative",
@@ -1477,7 +1477,7 @@
     "url": "https://jobs.ashbyhq.com/artie/328d888f-3b88-4c1a-a874-12e7b56c288d",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship available; artie_bdr_confirmation.png",
-    "confirmationImage": "artie_bdr_confirmation.png"
+    "confirmationImage": "/confirmations/artie_bdr_confirmation.png"
   },
   {
     "id": "artie-enterprise-account-executive",
@@ -1487,7 +1487,7 @@
     "url": "https://jobs.ashbyhq.com/artie/e87b84d2-78b3-41a3-937a-47e83643cdf1",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship available; artie_eae_confirmation.png",
-    "confirmationImage": "artie_eae_confirmation.png"
+    "confirmationImage": "/confirmations/artie_eae_confirmation.png"
   },
   {
     "id": "artie-solutions-engineer",
@@ -1497,7 +1497,7 @@
     "url": "https://jobs.ashbyhq.com/artie/9ed7587a-0653-4e81-ab50-5136a2516639",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship available; artie_se_confirmation.png",
-    "confirmationImage": "artie_se_confirmation.png"
+    "confirmationImage": "/confirmations/artie_se_confirmation.png"
   },
   {
     "id": "reactor-business-development-associate",
@@ -1507,7 +1507,7 @@
     "url": "https://reactor.inc/careers/566972",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship and relocation; reactor_bda_confirmation.png",
-    "confirmationImage": "reactor_bda_confirmation.png"
+    "confirmationImage": "/confirmations/reactor_bda_confirmation.png"
   },
   {
     "id": "reactor-operations-manager-gtm",
@@ -1517,7 +1517,7 @@
     "url": "https://reactor.inc/careers/544753",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship and relocation; reactor_ops_confirmation.png",
-    "confirmationImage": "reactor_ops_confirmation.png"
+    "confirmationImage": "/confirmations/reactor_ops_confirmation.png"
   },
   {
     "id": "reactor-gtm-lead-robotics",
@@ -1527,7 +1527,7 @@
     "url": "https://reactor.inc/careers/547531",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship and relocation; reactor_gtm_confirmation.png",
-    "confirmationImage": "reactor_gtm_confirmation.png"
+    "confirmationImage": "/confirmations/reactor_gtm_confirmation.png"
   },
   {
     "id": "river-ai-inc-founding-gtm-lead",
@@ -1537,7 +1537,7 @@
     "url": "https://job-boards.greenhouse.io/riverai/jobs/4358310009",
     "status": "SUBMITTED",
     "confirmation": "We sponsor visas; river_gtm_confirmation.png",
-    "confirmationImage": "river_gtm_confirmation.png"
+    "confirmationImage": "/confirmations/river_gtm_confirmation.png"
   },
   {
     "id": "worktrace-ai-customer-success-manager",
@@ -1547,17 +1547,17 @@
     "url": "https://jobs.ashbyhq.com/worktrace%20ai/aa80d8be-1f80-4344-b61b-a7b48c09abb2",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship; worktrace_csm_confirmation.png",
-    "confirmationImage": "worktrace_csm_confirmation.png"
+    "confirmationImage": "/confirmations/worktrace_csm_confirmation.png"
   },
   {
-    "id": "world-labs-senior-bd-and-ops-lead-robotics-and-physical-ai",
+    "id": "world-labs-senior-bd-ops-lead-robotics-physical-ai",
     "time": "2026-09-24 07:13 MYT",
     "company": "World Labs",
     "role": "Senior BD & Ops Lead, Robotics & Physical AI",
     "url": "https://jobs.ashbyhq.com/worldlabs/5f1829c6-6016-40c6-8855-4ed674819305",
     "status": "SUBMITTED",
     "confirmation": "We sponsor visas; worldlabs_bd_confirmation.png",
-    "confirmationImage": "worldlabs_bd_confirmation.png"
+    "confirmationImage": "/confirmations/worldlabs_bd_confirmation.png"
   },
   {
     "id": "firetiger-company-operator-chief-of-staff",
@@ -1567,7 +1567,7 @@
     "url": "https://jobs.ashbyhq.com/firetiger/60a17cd3-ce1f-4d0e-a4c3-6dd64fe59714",
     "status": "SUBMITTED",
     "confirmation": "Visa sponsorship available; firetiger_cos_confirmation.png",
-    "confirmationImage": "firetiger_cos_confirmation.png"
+    "confirmationImage": "/confirmations/firetiger_cos_confirmation.png"
   },
   {
     "id": "shor-founding-growth-gtm-lead-2",
@@ -1578,5 +1578,925 @@
     "status": "SKIPPED",
     "confirmation": "NO_SPONSOR_ON_PAGE on live listing",
     "confirmationImage": null
+  },
+  {
+    "id": "prosper-direct-marketing-manager-credit-card-creative-strategy",
+    "time": "2026-09-24 07:28 MYT",
+    "company": "Prosper",
+    "role": "Direct Marketing Manager (Credit Card & Creative Strategy)",
+    "url": "https://jobs.lever.co/prosper/7840083f-95a9-46da-b3d7-aae4b4e8723c",
+    "status": "BLOCKED",
+    "confirmation": "hCaptcha image challenge; prosper_dmm_blocked.png",
+    "confirmationImage": null
+  },
+  {
+    "id": "samaya-ai-product-marketer",
+    "time": "2026-09-24 07:31 MYT",
+    "company": "Samaya AI",
+    "role": "Product Marketer",
+    "url": "https://job-boards.greenhouse.io/samayaai/jobs/5151026007",
+    "status": "SUBMITTED",
+    "confirmation": "Greenhouse received; samaya_pmm_confirmation.png",
+    "confirmationImage": null
+  },
+  {
+    "id": "neosigma-founding-business-generalist",
+    "time": "2026-09-24 08:41 MYT",
+    "company": "NeoSigma",
+    "role": "Founding Business Generalist",
+    "url": "https://ats.rippling.com/neosigma/jobs/de501073-b2b5-42a2-ad73-65ecf73e3be6",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; neosigma_fbg_confirmation.png",
+    "confirmationImage": "/confirmations/neosigma_fbg_confirmation.png"
+  },
+  {
+    "id": "exa-growth-marketing-manager-lifecycle",
+    "time": "2026-09-24 08:48 MYT",
+    "company": "Exa",
+    "role": "Growth Marketing Manager (Lifecycle)",
+    "url": "https://jobs.ashbyhq.com/exa/8e4a696c-c37e-4102-b7fd-000d3ff45d7d",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; exa_gmm_lifecycle_confirmation.png",
+    "confirmationImage": "/confirmations/exa_gmm_lifecycle_confirmation.png"
+  },
+  {
+    "id": "anthropic-head-of-community-enterprise-marketing",
+    "time": "2026-09-24 08:48 MYT",
+    "company": "Anthropic",
+    "role": "Head of Community, Enterprise Marketing",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5388719008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_hoc_enterprise_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_hoc_enterprise_confirmation.png"
+  },
+  {
+    "id": "anthropic-product-marketing-manager-knowledge-work-core-products",
+    "time": "2026-09-24 08:48 MYT",
+    "company": "Anthropic",
+    "role": "Product Marketing Manager, Knowledge Work - Core Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385651008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_pmm_knowledge_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_pmm_knowledge_confirmation.png"
+  },
+  {
+    "id": "anthropic-partner-marketing-manager-launches",
+    "time": "2026-09-24 09:00 MYT",
+    "company": "Anthropic",
+    "role": "Partner Marketing Manager, Launches",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5388667008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_pml_launches_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_pml_launches_confirmation.png"
+  },
+  {
+    "id": "anthropic-customer-marketing-manager-industries",
+    "time": "2026-09-24 09:00 MYT",
+    "company": "Anthropic",
+    "role": "Customer Marketing Manager, Industries",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390155008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_cmm_industries_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_cmm_industries_confirmation.png"
+  },
+  {
+    "id": "anthropic-product-marketing-lead-gtm-strategy-claude-for-knowledge-work",
+    "time": "2026-09-24 09:00 MYT",
+    "company": "Anthropic",
+    "role": "Product Marketing Lead, GTM Strategy - Claude for Knowledge Work",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385602008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_pml_gtm_claude_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_pml_gtm_claude_confirmation.png"
+  },
+  {
+    "id": "fal-growth-marketer",
+    "time": "2026-09-24 09:00 MYT",
+    "company": "fal",
+    "role": "Growth Marketer",
+    "url": "https://jobs.ashbyhq.com/fal-ai/1ed2f0d1-73c9-4d8d-bb3d-823f93510bcc",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship + SF relocate on live JD; fal_growth_marketer_confirmation.png",
+    "confirmationImage": "/confirmations/fal_growth_marketer_confirmation.png"
+  },
+  {
+    "id": "legion-health-head-of-consumer-growth-2",
+    "time": "2026-09-24 09:06 MYT",
+    "company": "Legion Health",
+    "role": "Head of Consumer Growth",
+    "url": "https://jobs.ashbyhq.com/legionhealth/241da102-d6ee-4bfb-9676-d167b8390d0f",
+    "status": "SUBMITTED",
+    "confirmation": "US Visa Sponsorship: Yes; legion_hocg_ashby_confirmation.png",
+    "confirmationImage": "/confirmations/legion_hocg_ashby_confirmation.png"
+  },
+  {
+    "id": "exa-head-of-developer-relations",
+    "time": "2026-09-24 09:06 MYT",
+    "company": "Exa",
+    "role": "Head of Developer Relations",
+    "url": "https://jobs.ashbyhq.com/exa/35bd4464-745b-4e33-a407-c1870e86abb0",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; exa_head_devrel_confirmation.png",
+    "confirmationImage": "/confirmations/exa_head_devrel_confirmation.png"
+  },
+  {
+    "id": "fal-solutions-marketer",
+    "time": "2026-09-24 09:06 MYT",
+    "company": "fal",
+    "role": "Solutions Marketer",
+    "url": "https://jobs.ashbyhq.com/fal-ai/3117b0cf-797e-4f24-8ea8-eeffaa834f4e",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship + SF relocate; fal_solutions_marketer_confirmation.png",
+    "confirmationImage": "/confirmations/fal_solutions_marketer_confirmation.png"
+  },
+  {
+    "id": "exa-head-of-marketing-operations",
+    "time": "2026-09-24 09:06 MYT",
+    "company": "Exa",
+    "role": "Head of Marketing Operations",
+    "url": "https://jobs.ashbyhq.com/exa/62864919-a97a-457c-baf1-8facb31f98f8",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; exa_head_mops_confirmation.png",
+    "confirmationImage": "/confirmations/exa_head_mops_confirmation.png"
+  },
+  {
+    "id": "anthropic-product-marketing-manager-platform",
+    "time": "2026-09-24 09:13 MYT",
+    "company": "Anthropic",
+    "role": "Product Marketing Manager, Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424078008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_pmm_platform_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_pmm_platform_confirmation.png"
+  },
+  {
+    "id": "anthropic-product-marketing-manager-special-projects",
+    "time": "2026-09-24 09:13 MYT",
+    "company": "Anthropic",
+    "role": "Product Marketing Manager, Special Projects",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424080008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_pmm_special_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_pmm_special_confirmation.png"
+  },
+  {
+    "id": "superpower-head-of-cro-lifecycle",
+    "time": "2026-09-24 09:13 MYT",
+    "company": "Superpower",
+    "role": "Head of CRO & Lifecycle",
+    "url": "https://jobs.ashbyhq.com/superpower/46bb4d64-ce0c-4ade-a3e8-ea7947a16804",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship + relocate on live JD; superpower_cro_lifecycle_confirmation.png",
+    "confirmationImage": "/confirmations/superpower_cro_lifecycle_confirmation.png"
+  },
+  {
+    "id": "clera-growth-lead-2",
+    "time": "2026-09-24 09:13 MYT",
+    "company": "Clera",
+    "role": "Growth Lead",
+    "url": "https://jobs.ashbyhq.com/clera/72176533-9ef1-42b7-9073-135396b89838",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship available; clera_growth_lead_confirmation.png",
+    "confirmationImage": "/confirmations/clera_growth_lead_confirmation.png"
+  },
+  {
+    "id": "superpower-director-product-customer-marketing",
+    "time": "2026-09-24 09:18 MYT",
+    "company": "Superpower",
+    "role": "Director, Product & Customer Marketing",
+    "url": "https://jobs.ashbyhq.com/superpower/c40f0e7f-e0b2-4ffc-9ff3-c07c3620e041",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; superpower_dir_pcm_confirmation.png",
+    "confirmationImage": "/confirmations/superpower_dir_pcm_confirmation.png"
+  },
+  {
+    "id": "clera-marketing-events-lead",
+    "time": "2026-09-24 09:18 MYT",
+    "company": "Clera",
+    "role": "Marketing & Events Lead",
+    "url": "https://jobs.ashbyhq.com/clera/53ae71b2-5d05-4a75-8159-b1b9935ad5ff",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship available; clera_events_lead_confirmation.png",
+    "confirmationImage": "/confirmations/clera_events_lead_confirmation.png"
+  },
+  {
+    "id": "wispr-flow-b2b-marketing-lead",
+    "time": "2026-09-24 09:18 MYT",
+    "company": "Wispr Flow",
+    "role": "B2B Marketing Lead",
+    "url": "https://jobs.ashbyhq.com/wispr-flow/92221cc5-5d02-4431-9633-fc07c2539790",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; wispr_b2b_marketing_confirmation.png",
+    "confirmationImage": "/confirmations/wispr_b2b_marketing_confirmation.png"
+  },
+  {
+    "id": "wispr-flow-paid-search-performance-marketing-manager",
+    "time": "2026-09-24 09:18 MYT",
+    "company": "Wispr Flow",
+    "role": "Paid Search Performance Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/wispr-flow/d5e62bef-ab04-4eab-85ad-684ec968cc3e",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; wispr_paid_search_confirmation.png",
+    "confirmationImage": "/confirmations/wispr_paid_search_confirmation.png"
+  },
+  {
+    "id": "ivo-inc-gtm-campaign-manager",
+    "time": "2026-09-24 09:22 MYT",
+    "company": "Ivo Inc.",
+    "role": "GTM Campaign Manager",
+    "url": "https://jobs.ashbyhq.com/ivo-inc/930e88df-fe48-4a3f-830a-fcf41fcc0272",
+    "status": "SKIPPED",
+    "confirmation": "NO_SPONSOR_ON_PAGE; ivo_gtm_campaign_confirmation.png",
+    "confirmationImage": "/confirmations/ivo_gtm_campaign_confirmation.png"
+  },
+  {
+    "id": "aiuc-content-lead",
+    "time": "2026-09-24 09:22 MYT",
+    "company": "AIUC",
+    "role": "Content Lead",
+    "url": "https://jobs.ashbyhq.com/aiuc/f173c66f-f0dc-442a-b1d5-99d668f34a63",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; aiuc_content_lead_confirmation.png",
+    "confirmationImage": "/confirmations/aiuc_content_lead_confirmation.png"
+  },
+  {
+    "id": "resolveai-growth-strategy-associate",
+    "time": "2026-09-24 09:22 MYT",
+    "company": "ResolveAI",
+    "role": "Growth & Strategy Associate",
+    "url": "https://jobs.ashbyhq.com/resolveai/5e1ceaf9-9e4d-41c0-a0da-de350b478baa",
+    "status": "SUBMITTED",
+    "confirmation": "Visa Sponsorship & Immigration Support; resolveai_growth_strategy_confirmation.png",
+    "confirmationImage": "/confirmations/resolveai_growth_strategy_confirmation.png"
+  },
+  {
+    "id": "applied-compute-gtm-engineer",
+    "time": "2026-09-24 09:22 MYT",
+    "company": "Applied Compute",
+    "role": "GTM Engineer",
+    "url": "https://jobs.ashbyhq.com/applied%20compute/52de2d5f-564d-44d5-a055-8b865e77b93d",
+    "status": "SUBMITTED",
+    "confirmation": "We sponsor visas; applied_compute_gtm_eng_confirmation.png",
+    "confirmationImage": "/confirmations/applied_compute_gtm_eng_confirmation.png"
+  },
+  {
+    "id": "sauna-ai-content-producer",
+    "time": "2026-09-24 09:30 MYT",
+    "company": "Sauna.ai",
+    "role": "Content Producer",
+    "url": "https://jobs.ashbyhq.com/sauna.ai/89f3b2f2-bd0f-4687-bc44-c8239e135a09",
+    "status": "BLOCKED",
+    "confirmation": "O-1/J-1 on JD; needs 1-min intro video URL; sauna_content_producer_confirmation.png",
+    "confirmationImage": "/confirmations/sauna_content_producer_confirmation.png"
+  },
+  {
+    "id": "anthropic-solutions-marketing-lead-public-sector",
+    "time": "2026-09-24 09:30 MYT",
+    "company": "Anthropic",
+    "role": "Solutions Marketing Lead, Public Sector",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385586008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_sml_public_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_sml_public_confirmation.png"
+  },
+  {
+    "id": "prime-intellect-head-of-marketing",
+    "time": "2026-09-24 09:30 MYT",
+    "company": "Prime Intellect",
+    "role": "Head of Marketing",
+    "url": "https://jobs.ashbyhq.com/primeintellect/597d302f-9aee-45fd-a726-92aa2fad64eb",
+    "status": "SUBMITTED",
+    "confirmation": "Visa Sponsorship & relocation; primeintellect_hom_confirmation.png",
+    "confirmationImage": "/confirmations/primeintellect_hom_confirmation.png"
+  },
+  {
+    "id": "sauna-ai-growth-engineer",
+    "time": "2026-09-24 09:30 MYT",
+    "company": "Sauna.ai",
+    "role": "Growth Engineer",
+    "url": "https://jobs.ashbyhq.com/sauna.ai/2dd991be-e011-4dfd-bcc9-68d0d2f9d30b",
+    "status": "SUBMITTED",
+    "confirmation": "O-1/J-1 sponsorship on live JD; sauna_growth_engineer_confirmation.png",
+    "confirmationImage": "/confirmations/sauna_growth_engineer_confirmation.png"
+  },
+  {
+    "id": "superpower-director-of-influencer-marketing",
+    "time": "2026-09-24 09:37 MYT",
+    "company": "Superpower",
+    "role": "Director Of Influencer Marketing",
+    "url": "https://jobs.ashbyhq.com/superpower/05b52473-aa40-4963-93e5-5064570d8128",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; superpower_dir_influencer_confirmation.png",
+    "confirmationImage": "/confirmations/superpower_dir_influencer_confirmation.png"
+  },
+  {
+    "id": "cartesia-gtm-associate-inbound",
+    "time": "2026-09-24 09:37 MYT",
+    "company": "Cartesia",
+    "role": "GTM Associate, Inbound",
+    "url": "https://jobs.ashbyhq.com/cartesia/daa3cb86-a5fd-4e10-b3c8-6a2803633190",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; cartesia_gtm_inbound_confirmation.png",
+    "confirmationImage": "/confirmations/cartesia_gtm_inbound_confirmation.png"
+  },
+  {
+    "id": "hud-gtm-lead-commercial-partnerships",
+    "time": "2026-09-24 09:37 MYT",
+    "company": "HUD",
+    "role": "GTM Lead, Commercial Partnerships",
+    "url": "https://jobs.ashbyhq.com/hud/4706c69a-c7dc-461e-820f-9a715464b6cc",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; hud_gtm_lead_partnerships_confirmation.png",
+    "confirmationImage": "/confirmations/hud_gtm_lead_partnerships_confirmation.png"
+  },
+  {
+    "id": "hud-gtm-engineer",
+    "time": "2026-09-24 09:37 MYT",
+    "company": "HUD",
+    "role": "GTM Engineer",
+    "url": "https://jobs.ashbyhq.com/hud/73f8f790-4ce3-46c3-8fa8-e1c5fc06986e",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; hud_gtm_engineer_confirmation.png",
+    "confirmationImage": "/confirmations/hud_gtm_engineer_confirmation.png"
+  },
+  {
+    "id": "inferact-member-of-technical-staff-developer-relations",
+    "time": "2026-09-24 09:44 MYT",
+    "company": "Inferact",
+    "role": "Member of Technical Staff, Developer Relations",
+    "url": "https://jobs.ashbyhq.com/inferact/e1a91db5-1cd4-4688-863b-33ab88b40a4d",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; inferact_devrel_confirmation.png",
+    "confirmationImage": "/confirmations/inferact_devrel_confirmation.png"
+  },
+  {
+    "id": "parallel-gtm-leader-ai-native",
+    "time": "2026-09-24 09:44 MYT",
+    "company": "Parallel",
+    "role": "GTM Leader, AI Native",
+    "url": "https://jobs.ashbyhq.com/parallel/b7bd3dda-7504-48d7-a757-8d89b52ff985",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorships on live JD; parallel_gtm_leader_confirmation.png",
+    "confirmationImage": "/confirmations/parallel_gtm_leader_confirmation.png"
+  },
+  {
+    "id": "resolveai-growth-engineer",
+    "time": "2026-09-24 09:44 MYT",
+    "company": "ResolveAI",
+    "role": "Growth Engineer",
+    "url": "https://jobs.ashbyhq.com/resolveai/9670b82f-be04-4210-896c-56e39a825a97",
+    "status": "BLOCKED",
+    "confirmation": "Application limit of 2 jobs; resolveai_growth_engineer_confirmation.png",
+    "confirmationImage": "/confirmations/resolveai_growth_engineer_confirmation.png"
+  },
+  {
+    "id": "anthropic-solutions-marketing-manager-cybersecurity",
+    "time": "2026-09-24 09:44 MYT",
+    "company": "Anthropic",
+    "role": "Solutions Marketing Manager, Cybersecurity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5420245008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_smm_cyber_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_smm_cyber_confirmation.png"
+  },
+  {
+    "id": "anthropic-gtm-programs-manager-amer",
+    "time": "2026-09-24 09:50 MYT",
+    "company": "Anthropic",
+    "role": "GTM Programs Manager, AMER",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390980008",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; anthropic_gtm_programs_amer_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_gtm_programs_amer_confirmation.png"
+  },
+  {
+    "id": "anthropic-executive-communications-writer",
+    "time": "2026-09-24 09:50 MYT",
+    "company": "Anthropic",
+    "role": "Executive Communications Writer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5415287008",
+    "status": "BLOCKED",
+    "confirmation": "Mandatory arbitration agreement — not accepted; anthropic_exec_comms_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_exec_comms_confirmation.png"
+  },
+  {
+    "id": "wispr-flow-head-of-pr-external-communications",
+    "time": "2026-09-24 09:50 MYT",
+    "company": "Wispr Flow",
+    "role": "Head of PR & External Communications",
+    "url": "https://jobs.ashbyhq.com/wispr-flow/27629388-99ad-416c-b64e-aabd12e7b741",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; wispr_head_pr_confirmation.png",
+    "confirmationImage": "/confirmations/wispr_head_pr_confirmation.png"
+  },
+  {
+    "id": "reflection-ai-head-of-marketing",
+    "time": "2026-09-24 09:50 MYT",
+    "company": "Reflection AI",
+    "role": "Head of Marketing",
+    "url": "https://jobs.ashbyhq.com/reflectionai/bec3d2a4-76e6-497e-9e2e-1c4ad0307125",
+    "status": "SUBMITTED",
+    "confirmation": "Sponsorship support on live JD; SF selected; reflection_hom_confirmation.png",
+    "confirmationImage": "/confirmations/reflection_hom_confirmation.png"
+  },
+  {
+    "id": "exa-developer-advocate",
+    "time": "2026-09-24 09:56 MYT",
+    "company": "Exa",
+    "role": "Developer Advocate",
+    "url": "https://jobs.ashbyhq.com/exa/fd015edb-c29b-40ff-aa6f-b477c730b4c1",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; exa_dev_advocate_confirmation.png",
+    "confirmationImage": "/confirmations/exa_dev_advocate_confirmation.png"
+  },
+  {
+    "id": "superpower-performance-creative-strategist",
+    "time": "2026-09-24 09:56 MYT",
+    "company": "Superpower",
+    "role": "Performance Creative Strategist",
+    "url": "https://jobs.ashbyhq.com/superpower/878a5685-1eea-44d8-a1f4-2f18b0958ad2",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; superpower_perf_creative_confirmation.png",
+    "confirmationImage": "/confirmations/superpower_perf_creative_confirmation.png"
+  },
+  {
+    "id": "exa-creative-video-producer",
+    "time": "2026-09-24 09:56 MYT",
+    "company": "Exa",
+    "role": "Creative Video Producer",
+    "url": "https://jobs.ashbyhq.com/exa/94dd327d-5105-4b6f-8a72-e8d4d330a4e1",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; exa_creative_video_confirmation.png",
+    "confirmationImage": "/confirmations/exa_creative_video_confirmation.png"
+  },
+  {
+    "id": "parallel-gtm-enablement-technical",
+    "time": "2026-09-24 09:56 MYT",
+    "company": "Parallel",
+    "role": "GTM Enablement, Technical",
+    "url": "https://jobs.ashbyhq.com/parallel/a550cc1c-6bec-416b-a2da-a7ef06f754bc",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorships on live JD; parallel_gtm_enablement_confirmation.png",
+    "confirmationImage": "/confirmations/parallel_gtm_enablement_confirmation.png"
+  },
+  {
+    "id": "superpower-copywriter",
+    "time": "2026-09-24 09:58 MYT",
+    "company": "Superpower",
+    "role": "Copywriter",
+    "url": "https://jobs.ashbyhq.com/superpower/ad52b234-eec9-4f3e-bf8e-d6b8f59f85ae",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; superpower_copywriter_confirmation.png",
+    "confirmationImage": "/confirmations/superpower_copywriter_confirmation.png"
+  },
+  {
+    "id": "anthropic-copywriter-developer",
+    "time": "2026-09-24 09:58 MYT",
+    "company": "Anthropic",
+    "role": "Copywriter, Developer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
+    "status": "BLOCKED",
+    "confirmation": "Mandatory arbitration — not accepted; anthropic_copywriter_dev_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_copywriter_dev_confirmation.png"
+  },
+  {
+    "id": "anthropic-developer-relations",
+    "time": "2026-09-24 09:58 MYT",
+    "company": "Anthropic",
+    "role": "Developer Relations",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383596008",
+    "status": "BLOCKED",
+    "confirmation": "Mandatory arbitration — not accepted; anthropic_devrel_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_devrel_confirmation.png"
+  },
+  {
+    "id": "anthropic-gtm-enablement-trainer-claude-products",
+    "time": "2026-09-24 09:58 MYT",
+    "company": "Anthropic",
+    "role": "GTM Enablement Trainer, Claude Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5428790008",
+    "status": "BLOCKED",
+    "confirmation": "Mandatory arbitration — not accepted; anthropic_gtm_enablement_trainer_confirmation.png",
+    "confirmationImage": "/confirmations/anthropic_gtm_enablement_trainer_confirmation.png"
+  },
+  {
+    "id": "superpower-creator-in-residence-short-form-video",
+    "time": "2026-09-24 10:10 MYT",
+    "company": "Superpower",
+    "role": "Creator in Residence, Short-Form Video",
+    "url": "https://jobs.ashbyhq.com/superpower/5a14b09a-35e1-43ba-b434-033510718430",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; superpower_creator_residence_confirmation.png",
+    "confirmationImage": "/confirmations/superpower_creator_residence_confirmation.png"
+  },
+  {
+    "id": "legion-health-go-to-market-gtm-engineer",
+    "time": "2026-09-24 10:10 MYT",
+    "company": "Legion Health",
+    "role": "Go-to-Market (GTM) Engineer",
+    "url": "https://jobs.ashbyhq.com/legionhealth/4519a1af-1862-4614-8767-d91c76e99f28",
+    "status": "SUBMITTED",
+    "confirmation": "US Visa Sponsorship: Yes; legion_gtm_engineer_confirmation.png",
+    "confirmationImage": "/confirmations/legion_gtm_engineer_confirmation.png"
+  },
+  {
+    "id": "sauna-ai-creative-director-story-crafter",
+    "time": "2026-09-24 10:10 MYT",
+    "company": "Sauna.ai",
+    "role": "Creative Director / Story Crafter",
+    "url": "https://jobs.ashbyhq.com/sauna.ai/442a9d0f-30a3-4bbf-97d3-6e2c4b770b13",
+    "status": "SUBMITTED",
+    "confirmation": "O-1/J-1 on live JD; sauna_creative_director_confirmation.png",
+    "confirmationImage": "/confirmations/sauna_creative_director_confirmation.png"
+  },
+  {
+    "id": "letterbook-founding-growth-marketer",
+    "time": "2026-09-24 10:10 MYT",
+    "company": "Letterbook",
+    "role": "Founding Growth Marketer",
+    "url": "https://www.ycombinator.com/companies/letterbook/jobs/ITkYb0t-founding-growth-marketer",
+    "status": "BLOCKED",
+    "confirmation": "WAAS link redirected to company page; letterbook_founding_growth_confirmation.png",
+    "confirmationImage": "/confirmations/letterbook_founding_growth_confirmation.png"
+  },
+  {
+    "id": "typesafe-ai-developer-advocate",
+    "time": "2026-09-24 10:15 MYT",
+    "company": "TypeSafe AI",
+    "role": "Developer Advocate",
+    "url": "https://jobs.ashbyhq.com/typesafe-ai/4537eb37-94a3-43d6-9760-6f41c125aba4",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorships on live JD; typesafe_dev_advocate_confirmation.png",
+    "confirmationImage": "/confirmations/typesafe_dev_advocate_confirmation.png"
+  },
+  {
+    "id": "cartesia-strategic-partnerships-manager",
+    "time": "2026-09-24 10:15 MYT",
+    "company": "Cartesia",
+    "role": "Strategic Partnerships Manager",
+    "url": "https://jobs.ashbyhq.com/cartesia/87855ce7-539c-4064-b980-840d5e0e2a0b",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship case-by-case; cartesia_spm_confirmation.png",
+    "confirmationImage": "/confirmations/cartesia_spm_confirmation.png"
+  },
+  {
+    "id": "openart-ai-on-camera-content-creator",
+    "time": "2026-09-24 10:15 MYT",
+    "company": "OpenArt AI",
+    "role": "On-Camera Content Creator",
+    "url": "https://jobs.ashbyhq.com/openart/491b9c24-6089-4b28-bab2-7f98c5d27e21",
+    "status": "BLOCKED",
+    "confirmation": "Needs 40-60s video link; openart_oncamera_creator_confirmation.png",
+    "confirmationImage": "/confirmations/openart_oncamera_creator_confirmation.png"
+  },
+  {
+    "id": "sauna-ai-designer-brand-and-marketing",
+    "time": "2026-09-24 10:15 MYT",
+    "company": "Sauna.ai",
+    "role": "Designer (Brand and Marketing)",
+    "url": "https://jobs.ashbyhq.com/sauna.ai/a7e713ec-639c-4d2c-a0cd-30fdd2ca0f24",
+    "status": "SUBMITTED",
+    "confirmation": "O-1/J-1 on live JD; sauna_brand_designer_confirmation.png",
+    "confirmationImage": "/confirmations/sauna_brand_designer_confirmation.png"
+  },
+  {
+    "id": "retell-ai-founding-strategic-partnerships-cloud-alliances",
+    "time": "2026-09-24 10:20 MYT",
+    "company": "Retell AI",
+    "role": "Founding Strategic Partnerships, Cloud & Alliances",
+    "url": "https://jobs.ashbyhq.com/retell-ai/b3f5abf4-e92a-4cdb-9358-d0d01e5e2205",
+    "status": "SUBMITTED",
+    "confirmation": "O-1 sponsorship on live JD; retell_founding_partnerships_confirmation.png",
+    "confirmationImage": "/confirmations/retell_founding_partnerships_confirmation.png"
+  },
+  {
+    "id": "exa-head-of-cloud-partnerships",
+    "time": "2026-09-24 10:20 MYT",
+    "company": "Exa",
+    "role": "Head of Cloud Partnerships",
+    "url": "https://jobs.ashbyhq.com/exa/dbcd90ce-f311-4188-a388-89357ad80e4c",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; exa_head_cloud_partnerships_confirmation.png",
+    "confirmationImage": "/confirmations/exa_head_cloud_partnerships_confirmation.png"
+  },
+  {
+    "id": "parallel-cloud-partnerships",
+    "time": "2026-09-24 10:20 MYT",
+    "company": "Parallel",
+    "role": "Cloud Partnerships",
+    "url": "https://jobs.ashbyhq.com/parallel/fe935559-4209-4736-baa8-6d2478d424ba",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorships on live JD; parallel_cloud_partnerships_confirmation.png",
+    "confirmationImage": "/confirmations/parallel_cloud_partnerships_confirmation.png"
+  },
+  {
+    "id": "superpower-head-of-consultant-relations",
+    "time": "2026-09-24 10:20 MYT",
+    "company": "Superpower",
+    "role": "Head of Consultant Relations",
+    "url": "https://jobs.ashbyhq.com/superpower/b36516b7-ec9f-44a2-b0de-7d655757d535",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship + relocate; superpower_consultant_relations_confirmation.png",
+    "confirmationImage": "/confirmations/superpower_consultant_relations_confirmation.png"
+  },
+  {
+    "id": "parallel-gtm-leader-enterprise",
+    "time": "2026-09-24 10:22 MYT",
+    "company": "Parallel",
+    "role": "GTM Leader, Enterprise",
+    "url": "https://jobs.ashbyhq.com/parallel/4fac04bc-a15a-4b4b-9fe0-a5cbec27c687",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorships on live JD; parallel_gtm_enterprise_confirmation.png",
+    "confirmationImage": "/confirmations/parallel_gtm_enterprise_confirmation.png"
+  },
+  {
+    "id": "workstream-corporate-partnerships-manager",
+    "time": "2026-09-24 10:33 MYT",
+    "company": "Workstream",
+    "role": "Corporate Partnerships Manager",
+    "url": "https://job-boards.greenhouse.io/workstream/jobs/6205845004",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; workstream_partnerships_confirmation.png",
+    "confirmationImage": "/confirmations/workstream_partnerships_confirmation.png"
+  },
+  {
+    "id": "exa-data-partnerships",
+    "time": "2026-09-24 10:33 MYT",
+    "company": "Exa",
+    "role": "Data Partnerships",
+    "url": "https://jobs.ashbyhq.com/exa/faf3340f-a551-49cd-97ca-498023e59f6b",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; exa_data_partnerships_confirmation.png",
+    "confirmationImage": "/confirmations/exa_data_partnerships_confirmation.png"
+  },
+  {
+    "id": "reflection-ai-data-partnerships-initiatives-manager",
+    "time": "2026-09-24 10:33 MYT",
+    "company": "Reflection AI",
+    "role": "Data Partnerships & Initiatives Manager",
+    "url": "https://jobs.ashbyhq.com/reflectionai/f5b95a9f-4ecf-42b2-8932-f01d48d051c0",
+    "status": "SUBMITTED",
+    "confirmation": "Visa sponsorship on live JD; reflection_data_partnerships_confirmation.png",
+    "confirmationImage": "/confirmations/reflection_data_partnerships_confirmation.png"
+  },
+  {
+    "id": "cala-health-director-marketing",
+    "time": "2026-09-24 10:47 MYT",
+    "company": "Cala Health",
+    "role": "Director, Marketing",
+    "url": "https://job-boards.greenhouse.io/calahealth/jobs/6140493004",
+    "status": "SUBMITTED",
+    "confirmation": "Sponsorship path on live JD; cala_director_marketing_confirmation.png",
+    "confirmationImage": "/confirmations/cala_director_marketing_confirmation.png"
+  },
+  {
+    "id": "anthropic-copywriter-developer-2",
+    "time": "2026-09-24 13:34 MYT",
+    "company": "Anthropic",
+    "role": "Copywriter, Developer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted (Faris approved); anthropic_copywriter_developer_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_copywriter_developer_submitted.png"
+  },
+  {
+    "id": "anthropic-gtm-enablement-trainer-claude-products-2",
+    "time": "2026-09-24 13:34 MYT",
+    "company": "Anthropic",
+    "role": "GTM Enablement Trainer, Claude Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5428790008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted (Faris approved); anthropic_gtm_enablement_trainer_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_gtm_enablement_trainer_submitted.png"
+  },
+  {
+    "id": "anthropic-executive-communications-writer-2",
+    "time": "2026-09-24 13:34 MYT",
+    "company": "Anthropic",
+    "role": "Executive Communications Writer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5415287008",
+    "status": "BLOCKED",
+    "confirmation": "EMAIL_VERIFY_NEEDED — 8-char code to faris@startupfounda.com (arbitration accepted on form)",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-developer-relations-2",
+    "time": "2026-09-24 13:34 MYT",
+    "company": "Anthropic",
+    "role": "Developer Relations",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383596008",
+    "status": "BLOCKED",
+    "confirmation": "EMAIL_VERIFY_NEEDED — 8-char code to faris@startupfounda.com (arbitration accepted on form)",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-field-marketing-lead-public-sector",
+    "time": "2026-09-24 13:47 MYT",
+    "company": "Anthropic",
+    "role": "Field Marketing Lead, Public Sector",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5344577008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_field_marketing_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_field_marketing_submitted.png"
+  },
+  {
+    "id": "anthropic-program-manager-communications",
+    "time": "2026-09-24 13:47 MYT",
+    "company": "Anthropic",
+    "role": "Program Manager, Communications",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5252781008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_program_manager_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_program_manager_submitted.png"
+  },
+  {
+    "id": "anthropic-solutions-marketing-manager-healthcare-science",
+    "time": "2026-09-24 13:47 MYT",
+    "company": "Anthropic",
+    "role": "Solutions Marketing Manager, Healthcare & Science",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5420232008",
+    "status": "BLOCKED",
+    "confirmation": "EMAIL_VERIFY_NEEDED — Hostinger login required",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-internal-communications-manager-tech",
+    "time": "2026-09-24 13:47 MYT",
+    "company": "Anthropic",
+    "role": "Internal Communications Manager, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383388008",
+    "status": "BLOCKED",
+    "confirmation": "EMAIL_VERIFY_NEEDED — Hostinger login required",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-technical-documentation-and-content-engineer-claude-docs",
+    "time": "2026-09-24 13:47 MYT",
+    "company": "Anthropic",
+    "role": "Technical Documentation and Content Engineer, Claude Docs",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5370615008",
+    "status": "BLOCKED",
+    "confirmation": "EMAIL_VERIFY_NEEDED — Hostinger login required",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-executive-communications-writer-3",
+    "time": "2026-09-24 14:09 MYT",
+    "company": "Anthropic",
+    "role": "Executive Communications Writer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5415287008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; Hostinger session open; anthropic_exec_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_exec_submitted.png"
+  },
+  {
+    "id": "anthropic-developer-relations-3",
+    "time": "2026-09-24 14:09 MYT",
+    "company": "Anthropic",
+    "role": "Developer Relations",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383596008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_devrel_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_devrel_submitted.png"
+  },
+  {
+    "id": "anthropic-solutions-marketing-manager-healthcare-science-2",
+    "time": "2026-09-24 14:09 MYT",
+    "company": "Anthropic",
+    "role": "Solutions Marketing Manager, Healthcare & Science",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5420232008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_healthcare_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_healthcare_submitted.png"
+  },
+  {
+    "id": "anthropic-internal-communications-manager-tech-2",
+    "time": "2026-09-24 14:09 MYT",
+    "company": "Anthropic",
+    "role": "Internal Communications Manager, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383388008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_internal_comms_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_internal_comms_submitted.png"
+  },
+  {
+    "id": "anthropic-technical-documentation-and-content-engineer-claude-docs-2",
+    "time": "2026-09-24 14:09 MYT",
+    "company": "Anthropic",
+    "role": "Technical Documentation and Content Engineer, Claude Docs",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5370615008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_docs_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_docs_submitted.png"
+  },
+  {
+    "id": "anthropic-gtm-strategy-operations-amer-enterprise-tech",
+    "time": "2026-09-24 14:26 MYT",
+    "company": "Anthropic",
+    "role": "GTM Strategy & Operations - AMER Enterprise Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390956008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_gtm-amer_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_gtm-amer_submitted.png"
+  },
+  {
+    "id": "anthropic-gtm-strategy-operations-frontier",
+    "time": "2026-09-24 14:26 MYT",
+    "company": "Anthropic",
+    "role": "GTM Strategy & Operations, Frontier",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390952008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_frontier_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_frontier_submitted.png"
+  },
+  {
+    "id": "anthropic-partner-success-lead",
+    "time": "2026-09-24 14:26 MYT",
+    "company": "Anthropic",
+    "role": "Partner Success Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391215008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_partner-success_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_partner-success_submitted.png"
+  },
+  {
+    "id": "anthropic-sales-enablement-lead-gtm-onboarding",
+    "time": "2026-09-24 14:26 MYT",
+    "company": "Anthropic",
+    "role": "Sales Enablement Lead, GTM Onboarding",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390972008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_sales-enablement_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_sales-enablement_submitted.png"
+  },
+  {
+    "id": "anthropic-cloud-partner-enablement-lead",
+    "time": "2026-09-24 14:26 MYT",
+    "company": "Anthropic",
+    "role": "Cloud Partner Enablement Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5369181008",
+    "status": "BLOCKED",
+    "confirmation": "EMAIL_VERIFY_NEEDED",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-cloud-partner-enablement-lead-2",
+    "time": "2026-09-24 14:56 MYT",
+    "company": "Anthropic",
+    "role": "Cloud Partner Enablement Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5369181008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_cloud_partner_enablement_lead_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_cloud_partner_enablement_lead_submitted.png"
+  },
+  {
+    "id": "anthropic-partner-enablement-lead-system-integrators",
+    "time": "2026-09-24 14:56 MYT",
+    "company": "Anthropic",
+    "role": "Partner Enablement Lead, System Integrators",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5188391008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_partner_enablement_lead_si_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_partner_enablement_lead_si_submitted.png"
+  },
+  {
+    "id": "anthropic-sales-leader-enablement",
+    "time": "2026-09-24 14:56 MYT",
+    "company": "Anthropic",
+    "role": "Sales Leader Enablement",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390960008",
+    "status": "SUBMITTED",
+    "confirmation": "Arbitration accepted; anthropic_sales_leader_enablement_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_sales_leader_enablement_submitted.png"
+  },
+  {
+    "id": "anthropic-scaled-enablement-programs-lead",
+    "time": "2026-09-24 14:56 MYT",
+    "company": "Anthropic",
+    "role": "Scaled Enablement Programs Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391146008",
+    "status": "BLOCKED",
+    "confirmation": "Greenhouse persistent processing error",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-vc-partnerships-lead",
+    "time": "2026-09-24 14:56 MYT",
+    "company": "Anthropic",
+    "role": "VC Partnerships Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5235692008",
+    "status": "BLOCKED",
+    "confirmation": "Verification codes rejected",
+    "confirmationImage": null
+  },
+  {
+    "id": "anthropic-enterprise-integrated-campaign-manager-2",
+    "time": "2026-09-24 15:07 MYT",
+    "company": "Anthropic",
+    "role": "Enterprise Integrated Campaign Manager",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391995008",
+    "status": "SUBMITTED",
+    "confirmation": "Core marketer only; arbitration accepted; anthropic_eicm_submitted.png",
+    "confirmationImage": "/confirmations/anthropic_eicm_submitted.png"
   }
 ]

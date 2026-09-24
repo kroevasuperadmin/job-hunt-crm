@@ -8,7 +8,7 @@ Private dashboard of Faris Irfan’s job applications. The page keeps the same l
 
 `POST` or `PUT /api/crm` upserts one application or a batch by `id`, then recomputes stats. Requests must send `CRM_INGEST_SECRET` in the `x-crm-ingest-secret` header (or `Authorization: Bearer <secret>`). GitHub is not involved.
 
-If the store is empty on first load, it is seeded from `data/applications.json`. Later edits to that file do not change the live site; send them through the ingest API. `data/stats.json` is not read at runtime — totals always come from the stored applications.
+If the store is empty on first load, it is seeded from `data/applications.json` (the production snapshot: 250 applications, 174 submitted). Later edits to that file do not change the live site; send them through the ingest API. `data/stats.json` records the same snapshot totals and is not read at runtime — totals always come from the stored applications.
 
 Confirmation screenshots stay in `public/confirmations/`. A row still renders when `confirmationImage` is `null`, a filename, or a path.
 
