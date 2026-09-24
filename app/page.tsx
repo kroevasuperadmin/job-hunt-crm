@@ -1,9 +1,10 @@
 import Dashboard from "@/components/Dashboard";
-import { getApplications, getStats } from "@/lib/data";
+import { loadCrm } from "@/lib/data";
 
-export default function HomePage() {
-  const applications = getApplications();
-  const stats = getStats();
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
+export default async function HomePage() {
+  const { applications, stats } = await loadCrm();
   return <Dashboard applications={applications} stats={stats} />;
 }
