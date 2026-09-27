@@ -4,11 +4,11 @@ Demo dashboard of fictional job applications. The page keeps the same layout as 
 
 ## Live data
 
-`GET /api/crm` returns the current `{ applications, stats }`. The homepage is rendered dynamically from that store and the open dashboard refreshes every few seconds, so a new row shows up without a Vercel rebuild.
+`GET /api/crm` returns the current `{ applications, stats }`. The homepage reads one Blob file, `crm/applications.json`, and keeps that result for 10 minutes. It does not list the store, and it does not refresh on a timer. A new row shows up without a Vercel rebuild after an ingest; a refresh on another server process can take up to 10 minutes.
 
-`POST` or `PUT /api/crm` upserts one application or a batch by `id`, then recomputes stats. Requests must send `CRM_INGEST_SECRET` in the `x-crm-ingest-secret` header (or `Authorization: Bearer <secret>`). GitHub is not involved.
+`POST` or `PUT /api/crm` upserts one application or a batch by `id`, then recomputes stats. Requests must send `CRM_INGEST_SECRET` in the `x-crm-ingest-secret` header (or `Authorization: Bearer <secret>`). GitHub is not involved. The batch is one `put()`, and only when the stored rows actually change.
 
-If the store is empty on first load, it is seeded from `data/applications.json` (the bundled synthetic snapshot). Later edits to that file do not change the live site; send them through the ingest API. `data/stats.json` records the same snapshot totals and is not read at runtime — totals always come from the stored applications.
+If Blob is paused or unreachable, the page stays up on the last good copy, or on `data/applications.json` (the bundled synthetic snapshot), and shows the time of that copy. `data/stats.json` records that snapshot time. Totals on the page are recomputed from the rows being shown.
 
 This demo does not include confirmation screenshots. A row still renders when `confirmationImage` is `null`, a filename, or a path.
 
