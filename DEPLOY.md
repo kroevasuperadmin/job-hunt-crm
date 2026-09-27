@@ -14,7 +14,8 @@ A Next.js (App Router) dashboard of Faris Irfan’s job applications. The dashbo
 
 - `GET /api/crm` — applications plus stats recomputed from those rows
 - `POST` or `PUT /api/crm` — upsert one or many applications by `id`, then recompute stats
-- Empty store on first load — seed from the committed `data/applications.json`
+- Reads use one file, `crm/applications.json`, cached in the server for 10 minutes. Opening the page does not list the store and does not write.
+- If Blob is paused or unreachable, the page serves the last good copy, or the copy bundled from `data/applications.json`, and shows the time of that copy.
 - Confirmation screenshots — still static files in `public/confirmations/`
 
 No login for v1 (treat the URL as private). Runtime application updates do **not** go through GitHub and do **not** need a rebuild.
@@ -68,7 +69,7 @@ curl -sS -X POST "https://job-hunt-crm-one.vercel.app/api/crm" \
   }'
 ```
 
-A successful response includes `totalApplications` and `stats` (no redeploy). The open dashboard polls `GET /api/crm` every few seconds and shows the new row and totals. A manual refresh is also immediate, because the page is rendered from the store on each request.
+A successful response includes `totalApplications` and `stats` (no redeploy). The dashboard does not poll. A refresh shows the new row once this server process has taken the write; another process can be up to 10 minutes behind, because reads are cached and do not call Blob again inside that window. Unchanged rows do not call `put()`.
 
 `Authorization: Bearer $CRM_INGEST_SECRET` is accepted instead of the custom header. `PUT` behaves the same as `POST`.
 
@@ -102,11 +103,11 @@ Check what the dashboard is reading:
 curl -sS "https://job-hunt-crm-one.vercel.app/api/crm"
 ```
 
-## Seed
+## Saved copy
 
-On first read, if the Blob object `crm/applications.json` does not exist yet, the API writes a copy of `data/applications.json` and serves that. That file is the production snapshot: **250** applications, **174** submitted, **36** skipped, **40** blocked. `data/stats.json` records the same totals (`total` / `by_status`). Runtime stats are recomputed from the applications, so the dashboard shows those counts from the rows themselves.
+`data/applications.json` is the production snapshot bundled with the app: **250** applications, **174** submitted, **36** skipped, **40** blocked. `data/stats.json` records the same totals and the snapshot time (`updated_at`). Runtime stats are recomputed from the applications.
 
-Once the Blob object exists, the live store wins: editing the JSON files and redeploying will not replace it. Send further changes with `POST`. Deleting the blob object makes the next load seed again from `data/applications.json` in that deployment.
+The page reads that bundled file when Blob is missing, paused, or unreachable. It does not `put()` a seed on page view. The first ingest that actually changes a row writes `crm/applications.json` once. After that object exists, editing the JSON files and redeploying does not replace it. Send further changes with `POST`.
 
 ## Redeploy (code and screenshots only)
 
@@ -139,7 +140,7 @@ npm run dev
 
 - First deploy created project `job-hunt-crm` under the kroevasuperadmin personal projects scope.
 - CLI deploy does not require GitHub. Runtime application updates do not require GitHub either.
-- Send one ingest at a time from the automation. Concurrent `POST`s retry on Blob ETag conflicts; a single writer is the expected path.
+- Send one ingest at a time from the automation. Each request writes the whole batch with at most one `put()`, and only when a row changed.
 
 ## GitHub (source of truth for code)
 
