@@ -1,15 +1,14 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import type { Application, Stats } from "@/lib/types";
 
 type StatusFilter = "all" | "SUBMITTED" | "SKIPPED" | "BLOCKED";
 
-const POLL_MS = 4000;
-
 interface Props {
   applications: Application[];
   stats: Stats;
+  notice?: string | null;
 }
 
 function confirmationHref(image: string): string {
@@ -19,48 +18,9 @@ function confirmationHref(image: string): string {
   return `/confirmations/${normalized}`;
 }
 
-export default function Dashboard({
-  applications: initialApplications,
-  stats: initialStats,
-}: Props) {
-  const [applications, setApplications] = useState(initialApplications);
-  const [stats, setStats] = useState(initialStats);
+export default function Dashboard({ applications, stats, notice }: Props) {
   const [status, setStatus] = useState<StatusFilter>("all");
   const [query, setQuery] = useState("");
-
-  useEffect(() => {
-    let cancelled = false;
-
-    async function refresh() {
-      try {
-        const response = await fetch("/api/crm", { cache: "no-store" });
-        if (!response.ok) return;
-        const data = (await response.json()) as {
-          applications?: Application[];
-          stats?: Stats;
-        };
-        if (cancelled) return;
-        if (Array.isArray(data.applications)) setApplications(data.applications);
-        if (data.stats && typeof data.stats.totalApplications === "number") {
-          setStats(data.stats);
-        }
-      } catch {
-        // Keep the last good snapshot on screen if a poll fails.
-      }
-    }
-
-    void refresh();
-    const interval = window.setInterval(refresh, POLL_MS);
-    const onVisible = () => {
-      if (document.visibilityState === "visible") void refresh();
-    };
-    document.addEventListener("visibilitychange", onVisible);
-    return () => {
-      cancelled = true;
-      window.clearInterval(interval);
-      document.removeEventListener("visibilitychange", onVisible);
-    };
-  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -81,6 +41,7 @@ export default function Dashboard({
       <header>
         <h1>Job Hunt CRM</h1>
         <p>Applications tracked in this demo · synthetic data</p>
+        {notice ? <p className="snapshot-note">{notice}</p> : null}
       </header>
 
       <section className="stats" aria-label="Application counts">

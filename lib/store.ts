@@ -1,13 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
-import {
-  BlobAccessError,
-  BlobNotFoundError,
-  BlobPreconditionFailedError,
-  BlobStoreNotFoundError,
-  get,
-  put,
-} from "@vercel/blob";
+import { get, put } from "@vercel/blob";
+import snapshotMeta from "@/data/stats.json";
 import {
   mergeApplication,
   seedApplications,
@@ -17,9 +11,9 @@ import { computeStats } from "./stats";
 import type { Application, Stats } from "./types";
 
 const BLOB_PATH = "crm/applications.json";
-const WRITE_ATTEMPTS = 5;
+const CACHE_TTL_MS = 10 * 60 * 1000;
 
-export type StoreSource = "blob" | "local" | "seed";
+export type StoreSource = "blob" | "local" | "saved-copy";
 
 export interface CrmSnapshot {
   applications: Application[];
@@ -27,6 +21,7 @@ export interface CrmSnapshot {
   updatedAt: string | null;
   source: StoreSource;
   seeded: boolean;
+  notice: string | null;
 }
 
 export interface IngestResult extends CrmSnapshot {
@@ -39,9 +34,9 @@ interface StoreDocument {
   updatedAt: string;
 }
 
-interface BlobRead {
-  document: StoreDocument;
-  etag: string;
+interface MemoryCache {
+  snapshot: CrmSnapshot;
+  storedAt: number;
 }
 
 export class StoreError extends Error {
@@ -51,9 +46,10 @@ export class StoreError extends Error {
   }
 }
 
-function storageMode(): "blob" | "local" | "memory" {
-  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) return "blob";
-  if (process.env.VERCEL) return "memory";
+function storageMode(): "blob" | "local" {
+  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID || process.env.VERCEL) {
+    return "blob";
+  }
   return "local";
 }
 
@@ -61,11 +57,30 @@ function localStorePath(): string {
   return process.env.CRM_LOCAL_STORE || path.join(process.cwd(), ".data", "crm.json");
 }
 
+function bundledUpdatedAt(): string {
+  const raw = snapshotMeta as { updated_at?: unknown };
+  if (typeof raw.updated_at === "string" && raw.updated_at.trim()) return raw.updated_at;
+  return new Date(0).toISOString();
+}
+
+function formatCopyTime(iso: string): string {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return iso;
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const day = date.getUTCDate();
+  const month = months[date.getUTCMonth()];
+  const year = date.getUTCFullYear();
+  const hour = String(date.getUTCHours()).padStart(2, "0");
+  const minute = String(date.getUTCMinutes()).padStart(2, "0");
+  return `${day} ${month} ${year}, ${hour}:${minute} UTC`;
+}
+
 function snapshot(
   applications: Application[],
   updatedAt: string | null,
   source: StoreSource,
   seeded: boolean,
+  notice: string | null = null,
 ): CrmSnapshot {
   return {
     applications,
@@ -73,7 +88,24 @@ function snapshot(
     updatedAt,
     source,
     seeded,
+    notice,
   };
+}
+
+function bundledSnapshot(): CrmSnapshot {
+  return snapshot(seedApplications(), bundledUpdatedAt(), "saved-copy", false);
+}
+
+function savedCopySnapshot(lastGood: CrmSnapshot | null): CrmSnapshot {
+  const base = lastGood ?? bundledSnapshot();
+  const updatedAt = base.updatedAt ?? bundledUpdatedAt();
+  return snapshot(
+    base.applications,
+    updatedAt,
+    "saved-copy",
+    false,
+    `Showing a saved copy from ${formatCopyTime(updatedAt)}.`,
+  );
 }
 
 function previewId(raw: unknown): string | undefined {
@@ -127,7 +159,42 @@ function parseDocument(text: string): StoreDocument {
   };
 }
 
+function applicationKey(app: Application): string {
+  return JSON.stringify([
+    app.id,
+    app.time,
+    app.company,
+    app.role,
+    app.url,
+    app.status,
+    app.confirmation,
+    app.confirmationImage,
+  ]);
+}
+
+function sameApplications(left: Application[], right: Application[]): boolean {
+  if (left.length !== right.length) return false;
+  for (let index = 0; index < left.length; index += 1) {
+    if (applicationKey(left[index]) !== applicationKey(right[index])) return false;
+  }
+  return true;
+}
+
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : "unknown error";
+}
+
+let cache: MemoryCache | null = null;
+let lastGood: CrmSnapshot | null = null;
+let inFlight: Promise<CrmSnapshot> | null = null;
 let writeQueue: Promise<unknown> = Promise.resolve();
+
+export function clearCrmCacheForTests(): void {
+  cache = null;
+  lastGood = null;
+  inFlight = null;
+  writeQueue = Promise.resolve();
+}
 
 function enqueue<T>(task: () => Promise<T>): Promise<T> {
   const run = writeQueue.then(task, task);
@@ -136,6 +203,18 @@ function enqueue<T>(task: () => Promise<T>): Promise<T> {
     () => undefined,
   );
   return run;
+}
+
+function remember(snapshotValue: CrmSnapshot): CrmSnapshot {
+  cache = { snapshot: snapshotValue, storedAt: Date.now() };
+  if (snapshotValue.source === "blob") lastGood = snapshotValue;
+  return snapshotValue;
+}
+
+function freshCache(): CrmSnapshot | null {
+  if (!cache) return null;
+  if (Date.now() - cache.storedAt >= CACHE_TTL_MS) return null;
+  return cache.snapshot;
 }
 
 async function readLocal(): Promise<StoreDocument | null> {
@@ -158,117 +237,69 @@ async function writeLocal(document: StoreDocument): Promise<void> {
   await fs.rename(temporary, file);
 }
 
-function blobFailure(error: unknown): StoreError {
-  console.error("CRM blob operation failed", error);
-  if (error instanceof BlobStoreNotFoundError) {
-    return new StoreError(
-      "Blob store was not found. Create a private Vercel Blob store and link it to this project.",
-    );
-  }
-  if (error instanceof BlobAccessError) {
-    return new StoreError(
-      "Blob access was denied. Check BLOB_READ_WRITE_TOKEN or the store linked to this project.",
-    );
-  }
-  return new StoreError("Could not access the CRM blob store.");
-}
-
-async function readBlob(): Promise<BlobRead | null> {
+async function readLocalSnapshot(): Promise<CrmSnapshot> {
   try {
-    // Overwrites are cached for up to 60s unless the read bypasses the CDN.
-    const result = await get(BLOB_PATH, { access: "private", useCache: false });
-    if (!result || result.statusCode !== 200 || !result.stream) return null;
-    const text = await new Response(result.stream).text();
-    return { document: parseDocument(text), etag: result.blob.etag };
+    const existing = await readLocal();
+    if (existing) {
+      return snapshot(existing.applications, existing.updatedAt, "local", false);
+    }
   } catch (error) {
-    if (error instanceof BlobNotFoundError) return null;
-    throw blobFailure(error);
+    console.error("CRM local read failed", errorMessage(error));
+    return savedCopySnapshot(null);
   }
+  return snapshot(seedApplications(), bundledUpdatedAt(), "local", false);
 }
 
-async function tryCreateBlob(document: StoreDocument): Promise<"ok" | "conflict"> {
+async function readBlobDocument(): Promise<StoreDocument | null> {
+  const result = await get(BLOB_PATH, { access: "private" });
+  if (!result) return null;
+  if (result.statusCode !== 200 || !result.stream) {
+    throw new StoreError("CRM store returned no file body.");
+  }
+  const text = await new Response(result.stream).text();
+  return parseDocument(text);
+}
+
+async function putDocument(document: StoreDocument): Promise<void> {
+  await put(BLOB_PATH, JSON.stringify(document), {
+    access: "private",
+    addRandomSuffix: false,
+    allowOverwrite: true,
+    contentType: "application/json",
+  });
+}
+
+async function readBlobSnapshot(): Promise<CrmSnapshot> {
   try {
-    await put(BLOB_PATH, JSON.stringify(document), {
-      access: "private",
-      addRandomSuffix: false,
-      allowOverwrite: false,
-      contentType: "application/json",
-    });
-    return "ok";
+    const document = await readBlobDocument();
+    if (document) {
+      return remember(snapshot(document.applications, document.updatedAt, "blob", false));
+    }
   } catch (error) {
-    if (error instanceof BlobPreconditionFailedError) return "conflict";
-    const existing = await readBlob().catch(() => null);
-    if (existing) return "conflict";
-    throw error instanceof StoreError ? error : blobFailure(error);
+    console.error("CRM blob read failed", errorMessage(error));
   }
-}
-
-async function tryUpdateBlob(
-  document: StoreDocument,
-  etag: string,
-): Promise<"ok" | "conflict"> {
-  try {
-    await put(BLOB_PATH, JSON.stringify(document), {
-      access: "private",
-      addRandomSuffix: false,
-      allowOverwrite: true,
-      contentType: "application/json",
-      ifMatch: etag,
-    });
-    return "ok";
-  } catch (error) {
-    if (error instanceof BlobPreconditionFailedError) return "conflict";
-    throw blobFailure(error);
-  }
-}
-
-function memoryStoreError(): StoreError {
-  return new StoreError(
-    "Blob store is not configured. Connect a private Vercel Blob store so BLOB_STORE_ID or BLOB_READ_WRITE_TOKEN is set, then retry.",
-  );
+  return remember(savedCopySnapshot(lastGood));
 }
 
 export async function loadCrm(): Promise<CrmSnapshot> {
-  const mode = storageMode();
-  if (mode === "memory") {
-    return snapshot(seedApplications(), null, "seed", false);
-  }
-  if (mode === "local") {
-    return enqueue(async () => {
-      const existing = await readLocal();
-      if (existing) {
-        return snapshot(existing.applications, existing.updatedAt, "local", false);
-      }
-      const applications = seedApplications();
-      const updatedAt = new Date().toISOString();
-      await writeLocal({ version: 1, applications, updatedAt });
-      return snapshot(applications, updatedAt, "local", true);
-    });
-  }
-
-  for (let attempt = 0; attempt < WRITE_ATTEMPTS; attempt += 1) {
-    const existing = await readBlob();
-    if (existing) {
-      return snapshot(
-        existing.document.applications,
-        existing.document.updatedAt,
-        "blob",
-        false,
-      );
+  try {
+    if (storageMode() === "local") return readLocalSnapshot();
+    const cached = freshCache();
+    if (cached) return cached;
+    if (!inFlight) {
+      inFlight = readBlobSnapshot().finally(() => {
+        inFlight = null;
+      });
     }
-    const applications = seedApplications();
-    const updatedAt = new Date().toISOString();
-    const created = await tryCreateBlob({ version: 1, applications, updatedAt });
-    if (created === "ok") {
-      return snapshot(applications, updatedAt, "blob", true);
-    }
+    return await inFlight;
+  } catch (error) {
+    console.error("CRM load failed", errorMessage(error));
+    return savedCopySnapshot(lastGood);
   }
-  throw new StoreError("Could not seed the CRM blob store.");
 }
 
 export async function ingestApplications(rawItems: unknown[]): Promise<IngestResult> {
   const mode = storageMode();
-  if (mode === "memory") throw memoryStoreError();
 
   const apply = (current: Application[]) => {
     const scratch = new Map(current.map((app) => [app.id, app]));
@@ -287,6 +318,12 @@ export async function ingestApplications(rawItems: unknown[]): Promise<IngestRes
       const existing = await readLocal();
       const base = existing?.applications ?? seedApplications();
       const { applications, upserted } = apply(base);
+      if (existing && sameApplications(existing.applications, applications)) {
+        return {
+          ...snapshot(applications, existing.updatedAt, "local", false),
+          upserted,
+        };
+      }
       const updatedAt = new Date().toISOString();
       await writeLocal({ version: 1, applications, updatedAt });
       return {
@@ -296,23 +333,34 @@ export async function ingestApplications(rawItems: unknown[]): Promise<IngestRes
     });
   }
 
-  for (let attempt = 0; attempt < WRITE_ATTEMPTS; attempt += 1) {
-    const existing = await readBlob();
-    const base = existing?.document.applications ?? seedApplications();
+  return enqueue(async () => {
+    let existing: StoreDocument | null;
+    try {
+      existing = await readBlobDocument();
+    } catch (error) {
+      console.error("CRM blob read failed", errorMessage(error));
+      throw new StoreError("Could not read the CRM store, so nothing was written.");
+    }
+
+    const base = existing?.applications ?? seedApplications();
     const { applications, upserted } = apply(base);
+    if (sameApplications(base, applications)) {
+      const unchanged = existing
+        ? snapshot(applications, existing.updatedAt, "blob", false)
+        : snapshot(applications, bundledUpdatedAt(), "saved-copy", false);
+      if (existing) remember(unchanged);
+      return { ...unchanged, upserted };
+    }
+
     const updatedAt = new Date().toISOString();
     const document: StoreDocument = { version: 1, applications, updatedAt };
-    const saved = existing
-      ? await tryUpdateBlob(document, existing.etag)
-      : await tryCreateBlob(document);
-    if (saved === "ok") {
-      return {
-        ...snapshot(applications, updatedAt, "blob", !existing),
-        upserted,
-      };
+    try {
+      await putDocument(document);
+    } catch (error) {
+      console.error("CRM blob write failed", errorMessage(error));
+      throw new StoreError("Could not save applications to the CRM store.");
     }
-  }
-  throw new StoreError(
-    "Could not save applications because the CRM store changed during the write. Retry the request.",
-  );
+    const saved = remember(snapshot(applications, updatedAt, "blob", !existing));
+    return { ...saved, upserted };
+  });
 }
